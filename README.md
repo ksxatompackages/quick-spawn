@@ -71,7 +71,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 #### Prerequisite
 
-The following section is filled with full of JavaScript, so in order to acquire the tutorial, you better know JavaScript. However, if you don't know JavaScript yet, don't worry, you can still exploit some of its advantages, just copy-paste it (see [below](#overview)).
+The following section is filled with full of JavaScript, so in order to understand the tutorial, you better know JavaScript. However, if you don't know JavaScript yet, don't worry, you can still exploit some of its advantages, just copy-paste it (see [below](#overview)).
 
 #### Overview
 
