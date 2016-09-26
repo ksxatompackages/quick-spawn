@@ -21,6 +21,8 @@ apm install quick-spawn
 
 ## Usage
 
+**DISCLAIMER:** This package is designed to provide a powerful and stable *APIs* and *DOM UI*, so you can create simple iteractive *terminal* by *hacking* Atom. The mean point of this package is *not* the [basic one](#basic-use) *but* the [advanced one](#advanced-use). For this reason, we do not intend to provide full features for basic usage, our intention mainly focus in advanced user experience.
+
 ### Basic Use
 
 Basic use is a behaviour that is turned on by default, you can tweak it in Settings (Shortcut: <kbd>Ctrl+,</kbd>) or by editing `config.cson` (Command Palette: `Application: Open Your Config`). If you feel you need more, go check [advanced](#advanced-use).
@@ -71,7 +73,7 @@ The following section is filled with full of JavaScript, so in order to acquire 
 
 #### Overview
 
-*TODO: Content goes here*
+This package
 
 #### Examples
 
