@@ -9,6 +9,16 @@
 
 Contributions are welcome.
 
+## Requirements
+
+* Atom ≥ 1.10.0
+
+## Installation
+
+```bash
+apm install quick-spawn
+```
+
 ## Usage
 
 ### Basic Use
@@ -50,16 +60,6 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
  * `global:io-pipe` (object)
   - Key: `stdin`, `stdout`, and `stderr`
   - Value: A valid path to an executable file
-
-## Requirements
-
- * Atom ≥ 1.10.0
-
-## Installation
-
-```bash
-apm install quick-spawn
-```
 
 ### License
 
