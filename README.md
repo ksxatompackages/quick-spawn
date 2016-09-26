@@ -55,13 +55,9 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 ##### 2. The following fields are little more advanced
 
- * `global:single-environment-variable` (object)
+ * `global:environment-variable` (object)
   - Key: Variable name
-  - Value: Variable value as string
-
- * `global:array-environment-variable` (object)
-  - Key: Variable name
-  - Value: Variable value descriptor object which contains `middle` (optional string array - if undefined, use Atom's environment variable with the same name), `before` (optional string array), `after` (optional string array), and `delemiter` (optional character, default to `:`).
+  - Value: Variable value. Either a *string*; or an *object* (called *descriptor*) which contains `middle` (optional string array property - if undefined, use Atom's environment variable with the same name), `before` (optional string array property), `after` (optional string array property), and `delemiter` (optional character property, default to `:`).
 
  * `global:io-file` (object)
   - Key: `stdin`, `stdout`, and `stderr`
