@@ -73,7 +73,7 @@ The following section is filled with full of JavaScript, so in order to acquire 
 
 #### Overview
 
-This package
+This package provides a strong JavaScript *APIs* and customizable *UI* for user to create a simple console (a.k.a. shell, terminal)
 
 #### Examples
 
