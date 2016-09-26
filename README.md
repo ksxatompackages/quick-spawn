@@ -61,6 +61,24 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
   - Key: `stdin`, `stdout`, and `stderr`
   - Value: A valid path to an executable file
 
+### Advanced Use
+
+#### Prerequisite
+
+The following section is filled with full of JavaScript, so in order to acquire the tutorial, you better know JavaScript. However, if you don't know JavaScript yet, don't worry, just copy-paste it [*needed a link for 'copy-paste'*].
+
+#### Overview
+
+*TODO: Content goes here**
+
+#### Examples
+
+*TODO: Content goes here*
+
+#### API References
+
+*TODO: Link goes here*
+
 ## License
 
 [MIT](https://github.com/ksxatompackages/quick-spawn/blob/master/LICENSE.md)
