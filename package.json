@@ -37,5 +37,8 @@
     "url": "https://github.com/ksxatompackages/quick-spawn/issues"
   },
   "homepage": "https://github.com/ksxatompackages/quick-spawn#readme",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "engines": {
+    "atom": "^1.10.0"
+  }
 }
