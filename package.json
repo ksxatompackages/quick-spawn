@@ -1,5 +1,5 @@
 {
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "devDependencies": {
     "standard": "8.0.0"
