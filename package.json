@@ -36,5 +36,6 @@
   "bugs": {
     "url": "https://github.com/ksxatompackages/quick-spawn/issues"
   },
-  "homepage": "https://github.com/ksxatompackages/quick-spawn#readme"
+  "homepage": "https://github.com/ksxatompackages/quick-spawn#readme",
+  "version": "0.0.0"
 }
