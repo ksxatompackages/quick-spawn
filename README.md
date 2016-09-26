@@ -61,7 +61,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * `global:array-environment-variable` (object)
   - Key: Variable name
-  - Value: Variable value descriptor object which contains `middle` (optional string array - if undefined, use Atom's environment variable with the same name), `before` (optional string array), and `after` (optional string array).
+  - Value: Variable value descriptor object which contains `middle` (optional string array - if undefined, use Atom's environment variable with the same name), `before` (optional string array), `after` (optional string array), and `delemiter` (optional character, default to `:`).
 
  * `global:io-file` (object)
   - Key: `stdin`, `stdout`, and `stderr`
