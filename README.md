@@ -61,6 +61,6 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
   - Key: `stdin`, `stdout`, and `stderr`
   - Value: A valid path to an executable file
 
-### License
+## License
 
 [MIT](https://github.com/ksxatompackages/quick-spawn/blob/master/LICENSE.md)
