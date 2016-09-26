@@ -9,5 +9,33 @@
     "clean": "bash -c './sh/clean.sh'",
     "fix": "bash -c './sh/fix.sh'",
     "test": "bash -c './sh/test.sh'"
-  }
+  },
+  "name": "quick-spawn",
+  "description": "Spawn and Interact with other processes",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksxatompackages/quick-spawn.git"
+  },
+  "keywords": [
+    "quick",
+    "cmd",
+    "bash",
+    "shell",
+    "spawn",
+    "subprocess",
+    "child-process",
+    "interactive",
+    "terminal",
+    "term",
+    "execute",
+    "exec"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksxatompackages/quick-spawn/issues"
+  },
+  "homepage": "https://github.com/ksxatompackages/quick-spawn#readme"
 }
