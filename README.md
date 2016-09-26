@@ -86,7 +86,7 @@ In a nutshell, hacking Atom is any of the following:
  * Creating an [Atom package](http://flight-manual.atom.io/using-atom/sections/atom-packages/). <i>**P.S.** We always thank whoever try to create a plugin for this package.</i>
  * Open Atom's DevTools (It's actually Google Chrome's DevTools) and have fun with some JavaScript commands.
 
-All of code of the following tutorials is writen in JavaScript to make it easy for non-Coffee developers. It won't be such a pain for Coffee enthusiasts because they must know JavaScript as well as their flavour. But I might be somehow difficult for non-JS developers, so please do one of the following if you just want a copy-paste:
+All snippets of the following tutorials are writen in JavaScript to make it easy for non-Coffee developers. It won't be such a pain for Coffee enthusiasts because they must know JavaScript as well as their flavour. But I might be somehow difficult for non-JS developers, so please do one of the following if you just want a copy-paste:
  * Remove `init.coffee`, create an empty `init.js`, then write things in it.
  * Create a `whatever.js` file to write things in, then add `require 'whatever.js'` to your `init.coffee`.
  * Create a simple Atom package in JavaScript so you can paste any JS code in.
