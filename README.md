@@ -7,7 +7,49 @@
 
 ## Under Development
 
-Contributions are welcome
+Contributions are welcome.
+
+## Usage
+
+### Basic Use
+
+Basic use is a behaviour that is turned on by default, you can tweak it in Settings (Shortcut: <kbd>Ctrl+,</kbd>) or by editing `config.cson` (Command Palette: `Application: Open Your Config`). If you feel you need more, go check [advanced](#advanced-use).
+
+#### Tweak in Settings
+
+> You can do not much in Settings, to do more, checkout [`config.cson`](#tweak-by-opening-configcson).
+
+ * **Basic Use: Enabled** (Checkbox): Whether basic feature is enabled.
+
+ * **Basic Use: Executable Path** (Text Input): Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) to use bash on Windows).
+
+ * **Basic Use: Atom Command** (Text Input): Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
+
+ * **Basic Use: Keybinding** (Text Input): Register a Keyboard Shortcut for Basic Use.
+
+#### Tweak by Opening `config.cson`
+
+##### 1. The following fields are tweakable [by opening Settings](#tweak-in-settings), so let move on!
+
+ * `basic-use:enabled` (boolean)
+ * `basic-use:executable-path` (string)
+ * `basic-use:atom-command` (string)
+ * `basic-use:keybinding` (string)
+
+##### 2. The following fields are little more advanced
+
+ * `global:single-environment-variable` (object)
+  - Key: Variable name
+  - Value: Variable value as string
+ * `global:array-environment-variable` (object)
+  - Key: Variable name
+  - Value: Variable value descriptor object which contains `middle` (optional string array - if undefined, use Atom's environment variable with the same name), `before` (optional string array), and `after` (optional string array).
+ * `global:io-file` (object)
+  - Key: `stdin`, `stdout`, and `stderr`
+  - Value: A valid file path
+ * `global:io-pipe` (object)
+  - Key: `stdin`, `stdout`, and `stderr`
+  - Value: A valid path to an executable file
 
 ## Requirements
 
