@@ -39,6 +39,8 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 #### Tweak by Opening `config.cson`
 
+> See also: http://flight-manual.atom.io/using-atom/sections/basic-customization/
+
 ##### 1. The following fields are tweakable [by opening Settings](#tweak-in-settings), so let move on!
 
  * `basic-use:enabled` (boolean)
