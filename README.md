@@ -13,4 +13,4 @@ apm install quick-spawn
 
 ### License
 
-[MIT](https://github.com/ksxatompackages/quick-spawn/blob/master/MIT)
+[MIT](https://github.com/ksxatompackages/quick-spawn/blob/master/LICENSE.md)
