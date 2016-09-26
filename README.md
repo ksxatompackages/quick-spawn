@@ -71,7 +71,7 @@ The following section is filled with full of JavaScript, so in order to acquire 
 
 #### Overview
 
-*TODO: Content goes here**
+*TODO: Content goes here*
 
 #### Examples
 
