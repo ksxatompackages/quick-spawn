@@ -46,8 +46,11 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 ##### 1. The following fields are tweakable [by opening Settings](#tweak-in-settings), so let move on!
 
  * `basic-use:enabled` (boolean)
+
  * `basic-use:executable-path` (string)
+
  * `basic-use:atom-command` (string)
+
  * `basic-use:keybinding` (string)
 
 ##### 2. The following fields are little more advanced
@@ -55,12 +58,15 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
  * `global:single-environment-variable` (object)
   - Key: Variable name
   - Value: Variable value as string
+
  * `global:array-environment-variable` (object)
   - Key: Variable name
   - Value: Variable value descriptor object which contains `middle` (optional string array - if undefined, use Atom's environment variable with the same name), `before` (optional string array), and `after` (optional string array).
+
  * `global:io-file` (object)
   - Key: `stdin`, `stdout`, and `stderr`
   - Value: A valid file path
+
  * `global:io-pipe` (object)
   - Key: `stdin`, `stdout`, and `stderr`
   - Value: A valid path to an executable file
