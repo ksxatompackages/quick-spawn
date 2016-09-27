@@ -119,6 +119,23 @@ All code snippets of the following tutorials are writen in JavaScript to make it
 const quickSpawnAPIs = global.atom.packages.getLoadedPackage('quick-spawn').api
 ```
 
+##### Simple Resigtration
+
+```javascript
+quickSpawnAPIs.registerSingleSubscription({
+  execCmd: 'bash',
+  workingDirectory: global.atom.workspace.getActivatePaneItem().getDirectoryPath(),
+  attached: false,
+  suspended: true,
+  viewStdIO: ['stdin', 'stdout', 'stderr'],
+  atomCmd: 'quick-spawn-advanced:bash-simple',
+  atomKeybinding: 'ctrl-shift-b a',
+  type: 'tab',
+  exitOnClose: true,
+  closeOnExit: true
+})
+```
+
 ##### Detailed Resigtration
 
 ```javascript
@@ -133,12 +150,17 @@ quickSpawnAPIs
     viewStdIO: ['stdin', 'stdout', 'stderr'],
     atomCmd: 'quick-spawn-advanced:bash-detailed',
     atomKeybinding: 'ctrl-shift-b b',
-    type: 'pane-item',
+    type: 'tab',
     oncreated: view => {
+      const spawnSubscription = view.getSpawnSubscription()
       view.on('show', () => console.log('show', view))
       view.on('hide', () => console.log('hide', view))
-      view.on('hide', () => view.getSpawnSubscription().destroy())
+      view.on('hide', () => spawnSubscription.destroy())
       view.on('destroy', () => console.log('destroy', view))
+      spawnSubscription.on('exit', code => {
+        console.log(`${spawnSubscription.execCommand} exited with code ${code}`)
+        view.destroy() // optional though
+      })
     }
   })
 ```
