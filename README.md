@@ -167,9 +167,9 @@ quickSpawnAPIs
 
 *TODO: Content goes here*
 
-#### API References
+#### Documentation
 
-*TODO: Link goes here*
+https://github.com/ksxatompackages/quick-spawn/tree/master/docs
 
 ## License
 
