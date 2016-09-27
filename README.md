@@ -86,11 +86,11 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
   - Key: Variable name
   - Value: Variable value. Either a *string*; or an *object* (called *descriptor*) which contains `middle` (optional string array property - if undefined, use Atom's environment variable with the same name), `before` (optional string array property), `after` (optional string array property), and `delemiter` (optional character property, default to `:`).
 
- * `global:io-file` (object)
+ * `basic-use:io-file` (object)
   - Key: `stdin`, `stdout`, and `stderr`
   - Value: A valid file path
 
- * `global:io-pipe` (object)
+ * `basic-use:io-pipe` (object)
   - Key: `stdin`, `stdout`, and `stderr`
   - Value: A valid path to an executable file
 
