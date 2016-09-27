@@ -79,6 +79,9 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 ##### 2. The following fields are little more advanced
 
+ * `basic-use:command-line-arguments` (array of string)
+  - List of arguments which is passed when spawn the process
+
  * `global:environment-variable` (object)
   - Key: Variable name
   - Value: Variable value. Either a *string*; or an *object* (called *descriptor*) which contains `middle` (optional string array property - if undefined, use Atom's environment variable with the same name), `before` (optional string array property), `after` (optional string array property), and `delemiter` (optional character property, default to `:`).
