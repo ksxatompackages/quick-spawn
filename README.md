@@ -61,7 +61,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * `basic-use:executable-path` (string)
 
- * `basic-use:working-directory` (string)
+ * `basic-use:working-directory` (string enum)
 
  * `basic-use:hide-stdin` (boolean)
 
@@ -71,7 +71,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * `basic-use:close-on-exit` (boolean)
 
- * `basic-use:ui-type` (string)
+ * `basic-use:ui-type` (string enum)
 
  * `basic-use:atom-command` (string)
 
