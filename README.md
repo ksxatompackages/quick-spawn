@@ -165,8 +165,6 @@ quickSpawnAPIs
   })
 ```
 
-*TODO: Content goes here*
-
 #### Documentation
 
 [v0.0.0](https://github.com/ksxatompackages/quick-spawn/tree/latest/docs)
