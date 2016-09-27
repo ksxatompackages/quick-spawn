@@ -35,6 +35,8 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * **Basic Use: Executable Path** (Text Input): Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) to use bash on Windows).
 
+ * **Basic Use: Working Directory** (Select List): Either `activated-project-directory`, `activated-file-container`, `executable-container`
+
  * **Basic Use: Hide Stdin** (Checkbox): Whether typed input should be hidden, default to on.
 
  * **Basic Use: Hide Stdout** (Checkbox): Whether stdout data should be hidden, default to on.
@@ -58,6 +60,8 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
  * `basic-use:enabled` (boolean)
 
  * `basic-use:executable-path` (string)
+
+ * `basic-use:working-directory` (string)
 
  * `basic-use:hide-stdin` (boolean)
 
