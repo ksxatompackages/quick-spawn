@@ -31,9 +31,19 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 > You can do not much in Settings, to do more, checkout [`config.cson`](#tweak-by-opening-configcson).
 
- * **Basic Use: Enabled** (Checkbox): Whether basic feature is enabled.
+ * **Basic Use: Enabled** (Checkbox): Whether basic feature is enabled, default to on.
 
  * **Basic Use: Executable Path** (Text Input): Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) to use bash on Windows).
+
+ * **Basic Use: Hide Stdin** (Checkbox): Whether typed input should be hidden, default to on.
+
+ * **Basic Use: Hide Stdout** (Checkbox): Whether stdout data should be hidden, default to on.
+
+ * **Basic Use: Hide StdErr** (Checkbox): Whether stderr data should be hidden, default to on.
+
+ * **Basic Use: Close On Exit** (Checkbox): Whether the console would be closed if the spawned process finished.
+
+ * **Basic Use: UI Type** (Select List): Determine whether the console is shown as a tab, panel or dialog.
 
  * **Basic Use: Atom Command** (Text Input): Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
 
@@ -48,6 +58,16 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
  * `basic-use:enabled` (boolean)
 
  * `basic-use:executable-path` (string)
+
+ * `basic-use:hide-stdin` (boolean)
+
+ * `basic-use:hide-stdout` (boolean)
+
+ * `basic-use:hide-stderr` (boolean)
+
+ * `basic-use:close-on-exit` (boolean)
+
+ * `basic-use:ui-type` (boolean)
 
  * `basic-use:atom-command` (string)
 
