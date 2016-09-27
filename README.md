@@ -138,9 +138,9 @@ quickSpawnAPIs.registerSingleSubscription({
 })
 ```
 
-##### Detailed Resigtration
+##### Shareable Resigtration
 
-[Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/latest/examples/detailed.init.js)
+[Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/latest/examples/shareable.init.js)
 
 ```javascript
 quickSpawnAPIs
