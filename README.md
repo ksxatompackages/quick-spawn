@@ -113,6 +113,18 @@ All code snippets of the following tutorials are writen in JavaScript to make it
 
 #### Examples
 
+##### Prerequisite: Import the Package as a NodeJS module
+
+```javascript
+const quickSpawnPackage = global.atom.packages.getLoadedPackage('quick-spawn')
+```
+
+##### Basic Resigtration
+
+```javascript
+quickSpawnPackage({})
+```
+
 *TODO: Content goes here*
 
 #### API References
