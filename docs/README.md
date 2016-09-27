@@ -3,3 +3,5 @@
  * [API References](./api-references)
 
  * [Tips and Tricks](./tips)
+
+ * [Development Guide](./development-guide)
