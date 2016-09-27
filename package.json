@@ -1,9 +1,6 @@
 {
   "main": "lib/index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
-  "dependencies": {
-    "exec-once": "^0.0.0"
-  },
   "devDependencies": {
     "standard": "8.0.0"
   },
