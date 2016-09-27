@@ -29,7 +29,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 #### Tweak in Settings
 
-> You can do not much in Settings, to do more, checkout [`config.cson`](#tweak-by-opening-configcson).
+> You can't do much in Settings, to do more, checkout [`config.cson`](#tweak-by-opening-configcson).
 
  * **Basic Use: Enabled** *(Checkbox)*: Whether basic feature is enabled, default to on.
 
