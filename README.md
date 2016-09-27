@@ -43,7 +43,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * **Basic Use: Hide StdErr** (Checkbox): Whether stderr data should be hidden, default to on.
 
- * **Basic Use: Close On Exit** (Checkbox): Whether the console would be closed if the spawned process finished.
+ * **Basic Use: Service Type** (Select List): Either `temporary`, `background` or `suspended-background`. Default to `temporary`.
 
  * **Basic Use: UI Type** (Select List): Either `tab`, `panel`, `dialog`, `hidden` or `detached`. Default to `tab`.
 
@@ -69,7 +69,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * `basic-use:hide-stderr` (boolean)
 
- * `basic-use:close-on-exit` (boolean)
+ * `basic-use:service-type` (string enum)
 
  * `basic-use:ui-type` (string enum)
 
