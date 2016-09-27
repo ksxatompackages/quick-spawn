@@ -45,7 +45,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * **Basic Use: Close On Exit** (Checkbox): Whether the console would be closed if the spawned process finished.
 
- * **Basic Use: UI Type** (Select List): Determine whether the console is shown as a tab, panel or dialog.
+ * **Basic Use: UI Type** (Select List): Either `tab`, `panel`, or `dialog`
 
  * **Basic Use: Atom Command** (Text Input): Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
 
