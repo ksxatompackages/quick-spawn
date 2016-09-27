@@ -116,13 +116,31 @@ All code snippets of the following tutorials are writen in JavaScript to make it
 ##### Prerequisite: Import the Package as a NodeJS module
 
 ```javascript
-const quickSpawnPackage = global.atom.packages.getLoadedPackage('quick-spawn')
+const quickSpawnAPIs = global.atom.packages.getLoadedPackage('quick-spawn').api
 ```
 
-##### Basic Resigtration
+##### Detailed Resigtration
 
 ```javascript
-quickSpawnPackage({})
+quickSpawnAPIs
+  .registerSpawnCommand({
+    execCmd: 'bash',
+    workingDirectory: global.atom.workspace.getActivatePaneItem().getDirectoryPath(),
+    attached: false,
+    suspended: true
+  })
+  .registerAtomCommand({
+    viewStdIO: ['stdin', 'stdout', 'stderr'],
+    atomCmd: 'quick-spawn-advanced:bash-detailed',
+    atomKeybinding: 'ctrl-shift-b b',
+    type: 'pane-item',
+    oncreated: view => {
+      view.on('show', () => console.log('show', view))
+      view.on('hide', () => console.log('hide', view))
+      view.on('hide', () => view.getSpawnSubscription().destroy())
+      view.on('destroy', () => console.log('destroy', view))
+    }
+  })
 ```
 
 *TODO: Content goes here*
