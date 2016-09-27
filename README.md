@@ -175,7 +175,7 @@ quickSpawnAPIs
 
 #### Documentation
 
-[v0.0.0](https://github.com/ksxatompackages/quick-spawn/tree/latest/docs)
+[latest](https://github.com/ksxatompackages/quick-spawn/tree/latest/docs)
 
 ## License
 
