@@ -31,25 +31,25 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 > You can do not much in Settings, to do more, checkout [`config.cson`](#tweak-by-opening-configcson).
 
- * **Basic Use: Enabled** (Checkbox): Whether basic feature is enabled, default to on.
+ * **Basic Use: Enabled** *(Checkbox)*: Whether basic feature is enabled, default to on.
 
- * **Basic Use: Executable Path** (Text Input): Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) to use bash on Windows).
+ * **Basic Use: Executable Path** *(Text Input)*: Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) to use bash on Windows).
 
- * **Basic Use: Working Directory** (Select List): Either `activated-project-directory`, `activated-file-container`, or `executable-container`. Default to `activated-project-directory`.
+ * **Basic Use: Working Directory** *(Select List)*: Either `activated-project-directory`, `activated-file-container`, or `executable-container`. Default to `activated-project-directory`.
 
- * **Basic Use: Hide Stdin** (Checkbox): Whether typed input should be hidden, default to on.
+ * **Basic Use: Hide Stdin** *(Checkbox)*: Whether typed input should be hidden, default to on.
 
- * **Basic Use: Hide Stdout** (Checkbox): Whether stdout data should be hidden, default to on.
+ * **Basic Use: Hide Stdout** *(Checkbox)*: Whether stdout data should be hidden, default to on.
 
- * **Basic Use: Hide StdErr** (Checkbox): Whether stderr data should be hidden, default to on.
+ * **Basic Use: Hide StdErr** *(Checkbox)*: Whether stderr data should be hidden, default to on.
 
- * **Basic Use: Service Type** (Select List): Either `temporary`, `background` or `suspended-background`. Default to `temporary`.
+ * **Basic Use: Service Type** *(Select List)*: Either `temporary`, `background` or `suspended-background`. Default to `temporary`.
 
- * **Basic Use: UI Type** (Select List): Either `tab`, `panel`, `dialog`, `hidden` or `detached`. Default to `tab`.
+ * **Basic Use: UI Type** *(Select List)*: Either `tab`, `panel`, `dialog`, `hidden` or `detached`. Default to `tab`.
 
- * **Basic Use: Atom Command** (Text Input): Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
+ * **Basic Use: Atom Command** *(Text Input)*: Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
 
- * **Basic Use: Keybinding** (Text Input): Register a Keyboard Shortcut for Basic Use.
+ * **Basic Use: Keybinding** *(Text Input)*: Register a Keyboard Shortcut for Basic Use.
 
 #### Tweak by Opening `config.cson`
 
