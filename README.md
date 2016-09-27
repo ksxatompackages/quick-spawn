@@ -35,7 +35,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * **Basic Use: Executable Path** (Text Input): Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) to use bash on Windows).
 
- * **Basic Use: Working Directory** (Select List): Either `activated-project-directory`, `activated-file-container`, or `executable-container`
+ * **Basic Use: Working Directory** (Select List): Either `activated-project-directory`, `activated-file-container`, or `executable-container`.
 
  * **Basic Use: Hide Stdin** (Checkbox): Whether typed input should be hidden, default to on.
 
@@ -45,7 +45,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * **Basic Use: Close On Exit** (Checkbox): Whether the console would be closed if the spawned process finished.
 
- * **Basic Use: UI Type** (Select List): Either `tab`, `panel`, or `dialog`
+ * **Basic Use: UI Type** (Select List): Either `tab`, `panel`, or `dialog`.
 
  * **Basic Use: Atom Command** (Text Input): Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
 
