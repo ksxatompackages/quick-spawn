@@ -1,5 +1,5 @@
 # Table of Contents
-[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation]('.')
+[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation]('./README.md')
 
  * [API References](./api-references)
 
