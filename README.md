@@ -121,6 +121,8 @@ const quickSpawnAPIs = global.atom.packages.getLoadedPackage('quick-spawn').api
 
 ##### Simple Resigtration
 
+[Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/latest/examples/simple.init.js)
+
 ```javascript
 quickSpawnAPIs.registerSingleSubscription({
   execCmd: 'bash',
@@ -137,6 +139,8 @@ quickSpawnAPIs.registerSingleSubscription({
 ```
 
 ##### Detailed Resigtration
+
+[Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/latest/examples/detailed.init.js)
 
 ```javascript
 quickSpawnAPIs
