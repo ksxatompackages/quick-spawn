@@ -121,6 +121,8 @@ const quickSpawnAPIs = global.atom.packages.getLoadedPackage('quick-spawn').api
 
 ##### Simple Resigtration
 
+Register exactly one atom-command for exactly one exec-subscription
+
 [Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/latest/examples/simple.init.js)
 
 ```javascript
@@ -139,6 +141,8 @@ quickSpawnAPIs.registerSingleSubscription({
 ```
 
 ##### Shareable Resigtration
+
+Register multiple atom-commands with different configurations with one shared exec-subscription
 
 [Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/latest/examples/shareable.init.js)
 
