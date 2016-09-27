@@ -67,7 +67,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * `basic-use:close-on-exit` (boolean)
 
- * `basic-use:ui-type` (boolean)
+ * `basic-use:ui-type` (string)
 
  * `basic-use:atom-command` (string)
 
