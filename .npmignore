@@ -3,6 +3,7 @@
 /circle.yml
 /sh
 /docs
+/specs
 quick-test
 test
 tmp
