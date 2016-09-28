@@ -2,7 +2,7 @@
 
 /* IMPORT */
 
-const {packages} = global.atom
+const {packages, workspace} = global.atom
 const {registerSpawnCommand} = packages.getLoadedPackage('quick-spawn').api
 
 /* DO THINGS */
@@ -19,5 +19,12 @@ function registerBash () {
     suspended: true, // optional, default to true; if false, Bash would be started right after quick-spawn's activation
     __proto__: null // optional (of course), avoid the mess from Object.prototype
   })
+  // TODO: registerAtomCommand
   return bashSpawnSubscription
+}
+
+function getWorkingDirectory () {
+  return workspace // → Just global.atom.workspace, we imported it, remember?
+    .getActivatePaneItem() // → Opening Tab
+    .getDirectoryPath() // → Path to Directory which contains File in Opening Tab
 }
