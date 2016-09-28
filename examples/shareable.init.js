@@ -33,7 +33,7 @@ function registerTempCenteredBash () {
   const spawnSubscription = registerSpawnCommand({
     execCmd: 'bash', // required; program need to be executed
     execArguments: , // optional, default to empty array; provides command-line arguments for Bash
-    workingDirectory: getWorkingDirectory(), // optional; determines Bash's first working-directory, you can change it later by 'cd new-wdir'
+    workingDirectory: getWorkingDirectory, // optional; determines Bash's first working-directory, you can change it later by 'cd new-wdir'
     attached: false, // optional, default to false; determines whether Bash process should be attached to Atom process
     suspended: true, // optional, default to true; if false, Bash would be started right after quick-spawn's activation
     __proto__: null // optional (of course); avoid the mess from Object.prototype
