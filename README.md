@@ -45,7 +45,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * **Basic Use: Service Type** *(Select List)*: Either `temporary`, `background` or `suspended-background`. Default to `temporary`.
 
- * **Basic Use: UI Type** *(Select List)*: Either `tab`, `panel`, `dialog`, `hidden` or `detached`. Default to `tab`.
+ * **Basic Use: UI Type** *(Select List)*: Either `tab`, `panel`, `dialog`, `text-box`, `hidden` or `detached`. Default to `tab`.
 
  * **Basic Use: Atom Command** *(Text Input)*: Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
 
