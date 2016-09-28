@@ -131,7 +131,7 @@ Register exactly one atom-command for exactly one spawn-subscription
 ```javascript
 quickSpawnAPIs.registerSingleSubscription({
   execCmd: 'bash',
-  workingDirectory: global.atom.workspace.getActivatePaneItem().getDirectoryPath(),
+  workingDirectory: global.atom.workspace.getActivePaneItem().getDirectoryPath(),
   attached: false,
   suspended: true,
   viewStdIO: ['stdin', 'stdout', 'stderr'],
@@ -153,7 +153,7 @@ Register multiple atom-commands with different configurations with one shared sp
 quickSpawnAPIs
   .registerSpawnCommand({
     execCmd: 'bash',
-    workingDirectory: global.atom.workspace.getActivatePaneItem().getDirectoryPath(),
+    workingDirectory: global.atom.workspace.getActivePaneItem().getDirectoryPath(),
     attached: false,
     suspended: true
   })
