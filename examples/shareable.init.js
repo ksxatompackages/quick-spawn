@@ -12,6 +12,8 @@ registerTempCenteredBash()
 /* DEFINE HOW TO DO THINGS */
 
 // DESCRIPTION: registerTempCenteredBash
+//  → Distinct:
+//   * Bash process being kept alive by Main View and keeping Mirror View alive
 //  → Registers a Bash exec-command
 //  → Registers 2 atom-commands with 2 view-prototypes and 2 keyboard-shortcuts
 //   * Main View
