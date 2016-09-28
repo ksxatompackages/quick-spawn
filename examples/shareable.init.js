@@ -13,7 +13,7 @@ registerTempCenteredBash()
 
 // DESCRIPTION: registerTempCenteredBash
 //  → Distinct:
-//   * Bash process won't be spawned until one of two commands was shown
+//   * Bash process won't be spawned until one of two commands is shown
 //   * Bash process being kept alive by Main View and keeping Mirror View alive
 //  → Registers a Bash exec-command
 //  → Registers 2 atom-commands with 2 view-prototypes and 2 keyboard-shortcuts
