@@ -9,6 +9,7 @@ const {registerSpawnCommand} = require(packages.resolvePackagePath('quick-spawn'
 
 registerTempCenteredBash()
 registerTempMultiViewBash()
+registerBackgroundBash()
 
 /* DEFINE HOW TO DO THINGS */
 
@@ -76,6 +77,9 @@ function registerTempCenteredBash () {
 
 // DESCRIPTION: registerTempMultiViewBash
 function registerTempMultiViewBash () {}
+
+// DESCRIPTION: registerBackgroundBash
+function registerBackgroundBash () {}
 
 // DESCRIPTION: getWorkingDirectory
 //  → Return a Path to Directory that contains Opening File
