@@ -8,6 +8,7 @@ const {registerSpawnCommand} = packages.getLoadedPackage('quick-spawn').api
 /* DO THINGS */
 
 registerTempCenteredBash()
+registerTempMultiViewBash()
 
 /* DEFINE HOW TO DO THINGS */
 
@@ -63,6 +64,9 @@ function registerTempCenteredBash () {
   )
   return {spawnSubscription, mainAtomCommandSubscription, mirroredAtomCommandSubscription}
 }
+
+// DESCRIPTION: registerTempMultiViewBash
+function registerTempMultiViewBash () {}
 
 // DESCRIPTION: getWorkingDirectory
 //  → Return a Path to Directory that contains Opening File
