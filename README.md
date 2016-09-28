@@ -123,7 +123,7 @@ All code snippets of the following tutorials are writen in JavaScript to make it
 ##### Prerequisite: Import the Package as a NodeJS module
 
 ```javascript
-const quickSpawnAPIs = global.atom.packages.getLoadedPackage('quick-spawn').mainModule.api
+const quickSpawnAPIs = require(global.atom.packages.resolvePackagePath('quick-spawn'))
 ```
 
 ##### Simple Resigtration

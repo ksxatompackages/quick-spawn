@@ -3,7 +3,7 @@
 /* IMPORT */
 
 const {packages, workspace} = global.atom
-const {registerSpawnCommand} = packages.getLoadedPackage('quick-spawn').mainModule.api
+const {registerSpawnCommand} = require(packages.resolvePackagePath('quick-spawn'))
 
 /* DO THINGS */
 
