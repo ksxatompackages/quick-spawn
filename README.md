@@ -141,6 +141,7 @@ quickSpawnAPIs.registerSingleSubscription({
   viewStdIO: ['stdin', 'stdout', 'stderr'],
   atomCmd: 'quick-spawn-advanced:bash-simple',
   atomKeybinding: 'ctrl-shift-b a',
+  atomTarget: 'atom-workspace',
   type: 'tab',
   exitOnClose: true,
   closeOnExit: true,
@@ -166,6 +167,7 @@ quickSpawnAPIs
     viewStdIO: ['stdin', 'stdout', 'stderr'],
     atomCmd: 'quick-spawn-advanced:bash-shareable',
     atomKeybinding: 'ctrl-shift-b b',
+    atomTarget: 'atom-workspace',
     type: 'tab',
     oncreated: view => {
       const spawnSubscription = view.getSpawnSubscription()
