@@ -159,7 +159,7 @@ quickSpawnAPIs
   })
   .registerAtomCommand({
     viewStdIO: ['stdin', 'stdout', 'stderr'],
-    atomCmd: 'quick-spawn-advanced:bash-detailed',
+    atomCmd: 'quick-spawn-advanced:bash-shareable',
     atomKeybinding: 'ctrl-shift-b b',
     type: 'tab',
     oncreated: view => {
