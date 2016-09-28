@@ -64,8 +64,7 @@ function registerTempCenteredBash () {
   return {spawnSubscription, mainAtomCommandSubscription, mirroredAtomCommandSubscription}
 }
 
-
-// DESCRIPTION:
+// DESCRIPTION: getWorkingDirectory
 //  → Return a Path to Directory that contains Opening File
 function getWorkingDirectory () {
   return workspace // → Just global.atom.workspace, we imported it, remember?
