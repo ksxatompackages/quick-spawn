@@ -7,6 +7,9 @@ const {registerSpawnCommand} = require(packages.resolvePackagePath('quick-spawn'
 
 /* DO THINGS */
 
+// NOTE:
+//  → The following function-calls are not all necessary
+//  → Keep only what you need
 registerTempCenteredBash()
 registerTempMultiViewBash()
 registerBackgroundBash()
