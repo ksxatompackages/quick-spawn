@@ -143,7 +143,8 @@ quickSpawnAPIs.registerSingleSubscription({
   atomKeybinding: 'ctrl-shift-b a',
   type: 'tab',
   exitOnClose: true,
-  closeOnExit: true
+  closeOnExit: true,
+  detachedTextBox: 'none'
 })
 ```
 
