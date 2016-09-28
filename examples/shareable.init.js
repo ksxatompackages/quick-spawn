@@ -2,7 +2,7 @@
 
 /* IMPORT */
 
-const {packages, workspace} = global.atom
+const {packages, workspace, commands} = global.atom
 const {registerSpawnCommand} = require(packages.resolvePackagePath('quick-spawn'))
 
 /* DO THINGS */
@@ -60,6 +60,13 @@ function registerTempCenteredBash () {
     atomKeybinding: 'ctrl-shift-b x',
     __proto__: null
   })
+  mirroredAtomCommandSubscription.on(
+    'show',
+    event => {
+      commands.dispath(event.target, mainAtomCommandSubscription.atomCmd)
+      mainAtomCommandSubscription.once('show', () => mirroredAtomCommandSubscription.getCurrentView().focus())
+    }
+  )
   mirroredAtomCommandSubscription.on(
     'destroy',
     () => mirroredAtomCommandSubscription.getViewSubscription().destroy()
