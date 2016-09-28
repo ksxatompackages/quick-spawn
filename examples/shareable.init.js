@@ -11,6 +11,20 @@ registerTempCenteredBash()
 
 /* DEFINE HOW TO DO THINGS */
 
+// DESCRIPTION: registerTempCenteredBash
+//  → Registers a Bash exec-command
+//  → Registers 2 atom-commands with 2 view-prototypes and 2 keyboard-shortcuts
+//   * Main View
+//    - Appears as a pane-item (with a tab)
+//    - Log info to DevTools console every time you show/hide the view
+//    - Log info to DevTools console when the spawned Bash process finish
+//   * Mirror View
+//    - Appears as a pane-item (with a tab)
+//    - Auto destroy when spawn Bash process finish
+//  → Returns 3 created subscriptions as an object
+//   - spawnSubscription (spawn-subscription)
+//   - mainAtomCommandSubscription (atom-command-subscription)
+//   - mirroredAtomCommandSubscription (atom-command-subscription)
 function registerTempCenteredBash () {
   const spawnSubscription = registerSpawnCommand({
     execCmd: 'bash', // required; program need to be executed
