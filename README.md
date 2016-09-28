@@ -96,7 +96,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * `global:environment-variable` (object)
   - Key: Variable name
-  - Value: Variable value. Either a *string*; or an *object* (called *descriptor*) which contains `middle` (optional string array property - if undefined, use Atom's environment variable with the same name), `before` (optional string array property), `after` (optional string array property), and `delemiter` (optional character property, default to `:`).
+  - Value: Variable value. Either a *string*; or an *object* (called *descriptor*) which contains `middle` (optional string array property - if undefined, use Atom's environment variable with the same name), `before` (optional string array property), `after` (optional string array property), and `delimeter` (optional character property, default to `:`).
 
 ### Advanced Use
 
