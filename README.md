@@ -33,7 +33,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * **Basic Use: Enabled** *(Checkbox)*: Whether basic feature is enabled, default to on.
 
- * **Basic Use: Executable Path** *(Text Input)*: Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) to use bash on Windows).
+ * **Basic Use: Executable Path** *(Text Input)*: Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) or just install [Git](https://git-scm.com/) to get bash for Windows).
 
  * **Basic Use: Working Directory** *(Select List)*: Either `activated-project-directory`, `activated-file-container`, or `executable-container`. Default to `activated-project-directory`.
 
