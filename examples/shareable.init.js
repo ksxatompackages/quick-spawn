@@ -152,7 +152,7 @@ function registerEverything () {
     __proto__: null
   })
   const registerAtomCommand = (type, detachedTextBox) => spawnSubscription.registerAtomCommand({
-    atomCmd: 'background-bash:' + type,
+    atomCmd: 'everything-bash:' + type,
     atomTarget: 'atom-workspace',
     type,
     detachedTextBox,
