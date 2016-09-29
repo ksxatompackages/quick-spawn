@@ -129,6 +129,11 @@ function registerTempMultiViewBash () {
 
 // DESCRIPTION: registerBackgroundBash
 function registerBackgroundBash () {
+
+}
+
+// DESCRIPTION: registerEverything
+function registerEverything () {
   const spawnSubscription = registerSpawnCommand({
     execCmd: 'bash',
     __proto__: null
@@ -150,9 +155,6 @@ function registerBackgroundBash () {
   }
   return {spawnSubscription, everyAtomCommandSubsciptions}
 }
-
-// DESCRIPTION: registerEverything
-function registerEverything () {}
 
 // DESCRIPTION: getWorkingDirectory
 //  → Return a Path to Directory that contains Opening File
