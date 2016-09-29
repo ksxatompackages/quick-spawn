@@ -129,7 +129,20 @@ function registerTempMultiViewBash () {
 
 // DESCRIPTION: registerBackgroundBash
 function registerBackgroundBash () {
-
+  const spawnSubscription = registerSpawnCommand({
+    execCmd: 'bash',
+    suspended: false,
+    __proto__: null
+  })
+  const registerSpawnCommand = detachedTextBox => spawnSubscription.registerAtomCommand({
+    atomCmd: 'background-bash:' + detachedTextBox,
+    atomTarget: 'atom-workspace',
+    type: 'hidden',
+    detachedTextBox, // optional; default to 'none'
+    __proto__: null
+  })
+  const everyAtomCommandSubsciptions = ['mini-editor', 'editor', 'tab'].map(registerSpawnCommand)
+  return {spawnSubscription, everyAtomCommandSubsciptions}
 }
 
 // DESCRIPTION: registerEverything
@@ -142,7 +155,7 @@ function registerEverything () {
     atomCmd: 'background-bash:' + type,
     atomTarget: 'atom-workspace',
     type,
-    detachedTextBox, // optional; default to 'none'
+    detachedTextBox,
     __proto__: null
   })
   const everyAtomCommandSubsciptions = []
