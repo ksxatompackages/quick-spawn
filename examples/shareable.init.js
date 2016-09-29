@@ -21,7 +21,7 @@ registerEverything()
 //  → Distinct:
 //   * Bash process won't be spawned until one of two commands is shown
 //   * Bash process being kept alive by Main View and keeping Mirror View alive
-//  → Registers a Bash exec-command
+//  → Registers a Bash spawn-command
 //  → Registers 2 atom-commands with 2 view-prototypes and 2 keyboard-shortcuts
 //   * Main View
 //    - Appears as a pane-item (with a tab)
@@ -80,6 +80,17 @@ function registerTempCenteredBash () {
 }
 
 // DESCRIPTION: registerTempMultiViewBash
+//  → Distinct:
+//   * Bash runs when have at least 1 view opening
+//   * Bash exits when all views close
+//  → Register a Bash spawn-command
+//  → Register 4 atom-commands for each one of 'tab', 'panel', 'dialog' and 'hidden'
+//  → Return 5 created subscriptions and 1 array of 4 atom-command-subscriptions
+//   * tabAtomCommandSubsciption
+//   * panelAtomCommandSubsciption
+//   * dialogAtomCommandSubsciption
+//   * hiddenAtomCommandSubsciption
+//   * everyAtomCommandSubsciptions (array)
 function registerTempMultiViewBash () {
   const spawnSubscription = registerSpawnCommand({
     execCmd: 'bash',
