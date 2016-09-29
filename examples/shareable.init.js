@@ -61,7 +61,7 @@ function registerTempCenteredBash () {
   const mirroredAtomCommandSubscription = spawnSubscription.registerAtomCommand({
     atomCmd: 'view-bash:mirror',
     atomTarget: 'atom-workspace',
-    tab: 'panel', // now is panel
+    type: 'panel', // now is panel
     atomKeybinding: 'ctrl-shift-b x',
     __proto__: null
   })
@@ -80,7 +80,41 @@ function registerTempCenteredBash () {
 }
 
 // DESCRIPTION: registerTempMultiViewBash
-function registerTempMultiViewBash () {}
+function registerTempMultiViewBash () {
+  const spawnSubscription = registerSpawnCommand({
+    execCmd: 'bash',
+    __proto__: null
+  })
+  const registerAtomCommand = type => spawnSubscription.registerAtomCommand({
+    atomCmd: 'view-bash:' + type,
+    atomTarget: 'atom-workspace',
+    type,
+    __proto__: null
+  })
+  const tabAtomCommandSubsciption = registerAtomCommand('tab')
+  const panelAtomCommandSubsciption = registerAtomCommand('panel')
+  const dialogAtomCommandSubsciption = registerAtomCommand('dialog')
+  const hiddenAtomCommandSubsciption = registerAtomCommand('hidden')
+  const everyAtomCommandSubsciptions = [
+    tabAtomCommandSubsciption,
+    panelAtomCommandSubsciption,
+    dialogAtomCommandSubsciption,
+    hiddenAtomCommandSubsciption
+  ]
+  let shownViewCount = 0
+  for (const subscription of everyAtomCommandSubsciptions) {
+    subscription.on('show', () => ++shownViewCount)
+    subscription.on('hide', () => --shownViewCount || spawnSubscription.destroy())
+  }
+  return {
+    spawnSubscription,
+    tabAtomCommandSubsciption,
+    panelAtomCommandSubsciption,
+    dialogAtomCommandSubsciption,
+    hiddenAtomCommandSubsciption,
+    everyAtomCommandSubsciptions
+  }
+}
 
 // DESCRIPTION: registerBackgroundBash
 function registerBackgroundBash () {}
