@@ -82,7 +82,7 @@ function registerTempCenteredBash () {
 // DESCRIPTION: registerTempMultiViewBash
 //  → Distinct:
 //   * Bash runs when have at least 1 view opening
-//   * Bash exits when all views close
+//   * Bash exits when all views (except 'hidden' one) close
 //  → Register a Bash spawn-command
 //  → Register 4 atom-commands for each one of 'tab', 'panel', 'dialog' and 'hidden'
 //  → Return 5 created subscriptions and 1 array of 4 atom-command-subscriptions
