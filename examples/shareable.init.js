@@ -96,16 +96,17 @@ function registerTempMultiViewBash () {
     execCmd: 'bash',
     __proto__: null
   })
-  const registerAtomCommand = type => spawnSubscription.registerAtomCommand({
+  const registerAtomCommand = (type, key) => spawnSubscription.registerAtomCommand({
     atomCmd: 'view-bash:' + type,
     atomTarget: 'atom-workspace',
+    keybinding: 'ctrl-shift-b m ' + key,
     type,
     __proto__: null
   })
-  const tabAtomCommandSubsciption = registerAtomCommand('tab')
-  const panelAtomCommandSubsciption = registerAtomCommand('panel')
-  const dialogAtomCommandSubsciption = registerAtomCommand('dialog')
-  const hiddenAtomCommandSubsciption = registerAtomCommand('hidden')
+  const tabAtomCommandSubsciption = registerAtomCommand('tab', 't')
+  const panelAtomCommandSubsciption = registerAtomCommand('panel', 'p')
+  const dialogAtomCommandSubsciption = registerAtomCommand('dialog', 'd')
+  const hiddenAtomCommandSubsciption = registerAtomCommand('hidden', 'h')
   const everyAtomCommandSubsciptions = [
     tabAtomCommandSubsciption,
     panelAtomCommandSubsciption,
