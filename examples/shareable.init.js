@@ -83,8 +83,8 @@ function registerCentralizedBash () {
 //  → Distinct:
 //   * Bash runs when have at least 1 view opening
 //   * Bash exits when all views (except 'hidden' one) close
-//  → Register a Bash spawn-command
-//  → Register 4 atom-commands for each one of 'tab', 'panel', 'dialog' and 'hidden'
+//  → Registers a Bash spawn-command
+//  → Registers 4 atom-commands for each one of 'tab', 'panel', 'dialog' and 'hidden'
 //  → Return 5 created subscriptions and 1 array of 4 atom-command-subscriptions
 //   * tabAtomCommandSubsciption
 //   * panelAtomCommandSubsciption
@@ -133,8 +133,8 @@ function registerDistributedBash () {
 //   * No views shall appear
 //   * Command is typed at a detached text box
 //   * Bash will be spawned immediately after package activation
-//  → Register a Bash spawn-command
-//  → Register 3 atom-command for 3 kinds of text box
+//  → Registers a Bash spawn-command
+//  → Registers 3 atom-command for 3 kinds of text box
 //  → Returns 1 spawn-subscription and 1 array of 3 atom-command-subscriptions
 //   * spawnSubscription
 //   * everyAtomCommandSubsciptions (array)
@@ -156,6 +156,13 @@ function registerBackgroundBash () {
 }
 
 // DESCRIPTION: registerEverything
+//  → Distinct:
+//   * Register all kinds of detached-text-box for all kinds of views
+//  → Registers a Bash spawn-command
+//  → Registers 16 atom-command-subscriptions
+//  → Returns 1 spawn-subscription and 1 array of 16 atom-command-subscriptions
+//   * spawnSubscription
+//   * everyAtomCommandSubsciptions (array, dictionary)
 function registerEverything () {
   const spawnSubscription = registerSpawnCommand({
     execCmd: 'bash',
