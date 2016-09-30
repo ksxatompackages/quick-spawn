@@ -10,14 +10,14 @@ const {registerSpawnCommand} = require(packages.resolvePackagePath('quick-spawn'
 // NOTE:
 //  → The following function-calls are not all necessary
 //  → Keep only what you need
-registerTempCenteredBash()
-registerTempMultiViewBash()
+registerCentralizedBash()
+registerDistributedBash()
 registerBackgroundBash()
 registerEverything()
 
 /* DEFINE HOW TO DO THINGS */
 
-// DESCRIPTION: registerTempCenteredBash
+// DESCRIPTION: registerCentralizedBash
 //  → Distinct:
 //   * Bash process won't be spawned until one of two commands is shown
 //   * Bash process being kept alive by Main View and keeping Mirror View alive
@@ -34,7 +34,7 @@ registerEverything()
 //   - spawnSubscription (spawn-subscription)
 //   - mainAtomCommandSubscription (atom-command-subscription)
 //   - mirroredAtomCommandSubscription (atom-command-subscription)
-function registerTempCenteredBash () {
+function registerCentralizedBash () {
   const spawnSubscription = registerSpawnCommand({
     execCmd: 'bash', // required; program need to be executed
     execArguments: [], // optional, default to empty array; provides command-line arguments for Bash
@@ -79,7 +79,7 @@ function registerTempCenteredBash () {
   return {spawnSubscription, mainAtomCommandSubscription, mirroredAtomCommandSubscription}
 }
 
-// DESCRIPTION: registerTempMultiViewBash
+// DESCRIPTION: registerDistributedBash
 //  → Distinct:
 //   * Bash runs when have at least 1 view opening
 //   * Bash exits when all views (except 'hidden' one) close
@@ -91,7 +91,7 @@ function registerTempCenteredBash () {
 //   * dialogAtomCommandSubsciption
 //   * hiddenAtomCommandSubsciption
 //   * everyAtomCommandSubsciptions (array)
-function registerTempMultiViewBash () {
+function registerDistributedBash () {
   const spawnSubscription = registerSpawnCommand({
     execCmd: 'bash',
     __proto__: null
