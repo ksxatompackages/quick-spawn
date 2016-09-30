@@ -129,6 +129,15 @@ function registerDistributedBash () {
 }
 
 // DESCRIPTION: registerBackgroundBash
+//  → Distinct:
+//   * No views shall appear
+//   * Command is typed at a detached text box
+//   * Bash will be spawned immediately after package activation
+//  → Register a Bash spawn-command
+//  → Register 3 atom-command for 3 kinds of text box
+//  → Returns 1 spawn-subscription and 1 array of 3 atom-command-subscriptions
+//   * spawnSubscription
+//   * everyAtomCommandSubsciptions (array)
 function registerBackgroundBash () {
   const spawnSubscription = registerSpawnCommand({
     execCmd: 'bash',
