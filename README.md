@@ -38,7 +38,7 @@ git clone -b latest https://github.com/ksxatompackages/quick-spawn.git ~/.atom/p
 
 #### Clone directly - Windows
 
-```batch
+```bat
 git clone -b latest https://github.com/ksxatompackages/quick-spawn.git %USERPROFILE$\.atom\packages\quick-spawn
 ```
 
@@ -51,7 +51,7 @@ ln $(pwd)/quick-spawn ~/.atom/quick-spawn
 
 #### Clone and Link - Windows
 
-```batch
+```bat
 git clone -b latest https://github.com/ksxatompackages/quick-spawn.git quick-spawn
 mklink /J %USERPROFILE%\.atom\packages\quick-spawn %CD%\quick-spawn
 ```
