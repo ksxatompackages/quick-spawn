@@ -47,7 +47,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
  * **Basic Use: UI Type** *(Select List)*: Either `tab`, `panel`, `dialog`, `hidden` or `detached`. Default to `tab`.
 
- * **Basic Use: External Terminal** *(Text Box)* *[Linux, macOS]*: Which terminal would be open if `UI Type` is `detached`. Default to `xterm`.
+ * **Basic Use: External Terminal** *(Text Box)*: Which terminal would be open if `UI Type` is `detached`.
 
  * **Basic Use: Detached Text Box** *(Select List)*: Either `none`, `mini-editor`, `editor`, `tab`. Default to `none`.
 
