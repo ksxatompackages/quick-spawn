@@ -21,31 +21,35 @@ Contributions are welcome.
 apm install quick-spawn
 ```
 
-### Using Git + APM
+### Using Git + APM + NPM
 
 ```bash
 git clone -b latest https://github.com/ksxatompackages/quick-spawn.git quick-spawn
+npm install
 apm link quick-spawn
 ```
 
-### Using Git only
+### Using Git + NPM
 
 #### Clone directly - Linux, macOS
 
 ```bash
 git clone -b latest https://github.com/ksxatompackages/quick-spawn.git ~/.atom/packages/quick-spawn
+npm install
 ```
 
 #### Clone directly - Windows
 
 ```bat
 git clone -b latest https://github.com/ksxatompackages/quick-spawn.git %USERPROFILE$\.atom\packages\quick-spawn
+npm install
 ```
 
 #### Clone and Link - Linux, macOS
 
 ```bash
 git clone -b latest https://github.com/ksxatompackages/quick-spawn.git quick-spawn
+npm install
 ln $(pwd)/quick-spawn ~/.atom/quick-spawn
 ```
 
@@ -53,6 +57,7 @@ ln $(pwd)/quick-spawn ~/.atom/quick-spawn
 
 ```bat
 git clone -b latest https://github.com/ksxatompackages/quick-spawn.git quick-spawn
+npm install
 mklink /J %USERPROFILE%\.atom\packages\quick-spawn %CD%\quick-spawn
 ```
 
