@@ -49,6 +49,7 @@ function registerCentralizedBash () {
     type: 'tab', // optional, default to 'tab'
     viewStdIO: ['stdin', 'stdout', 'stderr'], // optional, determines whether stdin, stdout and stderr should be shown; shows all three by default
     atomKeybinding: 'ctrl-shift-b m', // optional
+    detachedTextBox: 'none',  // optional; default to 'none'
     oncreated (viewSubscription) { // optional, default to empty function; function takes 1 argument: created view-subscription
       const spawnSubscription = viewSubscription.getSpawnSubscription()
       viewSubscription.on('show', () => console.log('show', viewSubscription))
@@ -63,7 +64,6 @@ function registerCentralizedBash () {
     atomTarget: 'atom-workspace',
     type: 'panel', // now is panel
     atomKeybinding: 'ctrl-shift-b x',
-    detachedTextBox: 'none',  // optional; default to 'none'
     __proto__: null
   })
   mirroredAtomCommandSubscription.on(
