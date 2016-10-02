@@ -44,7 +44,7 @@ function registerCentralizedBash () {
     __proto__: null // optional (of course); avoid the mess from Object.prototype
   })
   const mainAtomCommandSubscription = spawnSubscription.registerAtomCommand({
-    atomCmd: 'view-bash:main', // required; register an Atom command, appear as "View Bash: Main" in Command-Palette
+    atomCmd: 'view-bash:main', // required; register an Atom command, appears as "View Bash: Main" in Command-Palette
     atomTarget: 'atom-workspace', // required; determines where to attach the atom-command
     type: 'tab', // optional, default to 'tab'
     viewStdIO: ['stdin', 'stdout', 'stderr'], // optional, determines whether stdin, stdout and stderr should be shown; shows all three by default
