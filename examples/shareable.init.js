@@ -63,6 +63,7 @@ function registerCentralizedBash () {
     atomTarget: 'atom-workspace',
     type: 'panel', // now is panel
     atomKeybinding: 'ctrl-shift-b x',
+    detachedTextBox: 'none',  // optional; default to 'none'
     __proto__: null
   })
   mirroredAtomCommandSubscription.on(
@@ -148,7 +149,7 @@ function registerBackgroundBash () {
     atomCmd: 'background-bash:' + detachedTextBox,
     atomTarget: 'atom-workspace',
     type: 'hidden',
-    detachedTextBox, // optional; default to 'none'
+    detachedTextBox,
     __proto__: null
   })
   const everyAtomCommandSubsciptions = ['mini-editor', 'editor', 'tab'].map(registerSpawnCommand)
