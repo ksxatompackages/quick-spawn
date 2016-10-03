@@ -49,7 +49,19 @@ function registerWorkspaceBash () {
 //   * Uses getItemDirectory() as first current-working-directory
 //  → Returns 1 subscription
 function registerSidebarBash () {
-  return registerSingleSubscription({})
+  const target = '.tree-view .entry'
+  return registerSingleSubscription({
+    execCmd: 'bash',
+    atomCmd: 'simple-bash:tree-view-entry',
+    atomTarget: target,
+    workingDirectory: getItemDirectory,
+    atomContextMenu: {
+      target,
+      path: ['Quick Spawn', 'Simple Bash', 'For this File/Folder']
+    },
+    closeOnExit: true,
+    __proto__: null
+  })
 }
 
 // DESCRIPTION: getTabDirectory
