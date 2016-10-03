@@ -3,7 +3,7 @@
 /* IMPORT */
 
 const {packages, workspace} = global.atom
-const {registerSpawnCommand} = require(packages.resolvePackagePath('quick-spawn'))
+const {registerSingleSubscription} = require(packages.resolvePackagePath('quick-spawn'))
 
 /* DO THINGS */
 
@@ -21,7 +21,7 @@ registerSidebarBash()
 //   * Uses getTabDirectory() as first current-working-directory
 //  → Returns 1 subscription
 function registerWorkspaceBash () {
-  return registerSpawnCommand({
+  return registerSingleSubscription({
     execCmd: 'bash', // required; program needs to be executed
     atomCmd: 'simple-bash:workspace', // required; registers an atom-command, appears as "Simple Bash: Workspace" in Command-Palette
     atomTarget: 'atom-workspace', // required; determines where to attach the atom-command
@@ -49,7 +49,7 @@ function registerWorkspaceBash () {
 //   * Uses getItemDirectory() as first current-working-directory
 //  → Returns 1 subscription
 function registerSidebarBash () {
-  return registerSpawnCommand({})
+  return registerSingleSubscription({})
 }
 
 // DESCRIPTION: getTabDirectory
