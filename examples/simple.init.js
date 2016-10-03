@@ -30,6 +30,11 @@ function registerWorkspaceBash () {
     viewStdIO: ['stdin', 'stdout', 'stderr'], // optional, determines whether stdin, stdout and stderr should be shown; shows all three by default
     type: 'tab', // optional, default to 'tab'
     atomKeybinding: 'ctrl-shift-b s w', // optional
+    atomMenuBar: ['Packages', 'Quick Spawn', 'Simple Bash'], // optional
+    atomContextMenu: { // optional
+      target: 'atom-workspace', // required
+      path: ['Quick Spawn', 'Simple Bash'], // required
+    },
     exitOnClose: true, // optional, default to true; should the spawned process be terminated when close the view
     closeOnExit: true, // optional, default to false; should the view be closed when bash exits
     detachedTextBox: 'none', // optional, default to 'none'
