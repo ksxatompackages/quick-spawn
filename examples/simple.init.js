@@ -35,6 +35,7 @@ function registerWorkspaceBash () {
     atomContextMenu: { // optional
       target: 'atom-workspace', // required
       path: ['Quick Spawn', 'Simple Bash'], // required
+      __proto__: null
     },
     exitOnClose: true, // optional, default to true; should the spawned process be terminated when close the view
     closeOnExit: true, // optional, default to false; should the view be closed when bash exits
@@ -57,7 +58,8 @@ function registerSidebarBash () {
     workingDirectory: getItemDirectory,
     atomContextMenu: {
       target,
-      path: ['Quick Spawn', 'Simple Bash', 'For this File/Folder']
+      path: ['Quick Spawn', 'Simple Bash', 'For this File/Folder'],
+      __proto__: null
     },
     closeOnExit: true,
     __proto__: null
