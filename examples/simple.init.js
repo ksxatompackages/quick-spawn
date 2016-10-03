@@ -2,7 +2,8 @@
 
 /* IMPORT */
 
-const {packages, workspace} = global.atom
+const {dirname} = require('path')
+const {packages, workspace, notifications} = global.atom
 const {registerSingleSubscription} = require(packages.resolvePackagePath('quick-spawn'))
 
 /* DO THINGS */
@@ -69,4 +70,26 @@ function registerSidebarBash () {
 // DESCRIPTION: getTabDirectory
 function getTabDirectory () {
   return workspace.getActivePaneItem().getDirectoryPath()
+}
+
+// DESCRIPTION: getSidebarItemDirectory
+function getSidebarItemDirectory (param) {
+  const actualTarget = param.getActualTarget()
+  const {classList} = actualTarget
+  const dataPath = actualTarget.querySelector('[data-path]').getAttribute('data-path')
+  if (classList.contains('directory')) {
+    return dataPath
+  } else if (classList.contains('file')) {
+    return dirname(dataPath)
+  } else {
+    notifications.addError(
+      'Get directory path of tree-view entry failed',
+      {
+        detail:
+          'There is something weird inside tree-view, which is neither a file nor a directory'
+      }
+    )
+    console.log('Get Directory Failed', param)
+    return undefined // still spawn bash
+  }
 }
