@@ -31,7 +31,7 @@ function registerWorkspaceBash () {
     viewStdIO: ['stdin', 'stdout', 'stderr'], // optional, determines whether stdin, stdout and stderr should be shown; shows all three by default
     type: 'tab', // optional, default to 'tab'
     atomKeybinding: 'ctrl-shift-b s w', // optional
-    atomMenuBar: ['Packages', 'Quick Spawn', 'Simple Bash'], // optional
+    atomMenuBar: ['Packages', 'Quick Spawn', 'Simple Bash', 'For Opening Tab'], // optional
     atomContextMenu: { // optional
       target: 'atom-workspace', // required
       path: ['Quick Spawn', 'Simple Bash'], // required
