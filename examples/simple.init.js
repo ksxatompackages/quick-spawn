@@ -47,7 +47,7 @@ function registerWorkspaceBash () {
 // DESCRIPTION: registerSidebarBash
 //  → Distinct:
 //   * Registers for directory tree-view
-//   * Uses getItemDirectory() as first current-working-directory
+//   * Uses getSidebarItemDirectory() as first current-working-directory
 //  → Returns 1 subscription
 function registerSidebarBash () {
   const target = '.tree-view .entry'
@@ -55,7 +55,7 @@ function registerSidebarBash () {
     execCmd: 'bash',
     atomCmd: 'simple-bash:tree-view-entry',
     atomTarget: target,
-    workingDirectory: getItemDirectory,
+    workingDirectory: getSidebarItemDirectory,
     atomContextMenu: {
       target,
       path: ['Quick Spawn', 'Simple Bash', 'For this File/Folder'],
