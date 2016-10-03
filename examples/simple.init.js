@@ -11,6 +11,7 @@ const {registerSpawnCommand} = require(packages.resolvePackagePath('quick-spawn'
 //  → Not every function-calls below is necessary
 //  → Keep only what you need
 registerWorkspaceBash()
+registerSidebarBash()
 
 /* DEFINE HOW TO DO THINGS */
 
@@ -40,6 +41,15 @@ function registerWorkspaceBash () {
     detachedTextBox: 'none', // optional, default to 'none'
     __proto__: null // optional (of course); avoid the mess from Object.prototype
   })
+}
+
+// DESCRIPTION: registerSidebarBash
+//  → Distinct:
+//   * Registers for directory tree-view
+//   * Uses getItemDirectory() as first current-working-directory
+//  → Returns 1 subscription
+function registerSidebarBash () {
+  return registerSpawnCommand({})
 }
 
 // DESCRIPTION: getTabDirectory
