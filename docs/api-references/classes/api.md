@@ -5,7 +5,9 @@
 
 Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api`.
 
-## register-single-subscription
+## Functions and Methods
+
+### register-single-subscription
 
 **Prototype**
 
@@ -29,7 +31,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
  * [`simple.init.js` - line 55 → 67](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/simple.init.js#L55-L67)
 
-## register-spawn-command
+### register-spawn-command
 
 **Prototype**
 
