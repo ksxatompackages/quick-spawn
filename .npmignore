@@ -10,6 +10,8 @@ test
 tmp
 temp
 *.log
+tmp.*
+temp.*
 *.tmp
 *.temp
 *.sh
