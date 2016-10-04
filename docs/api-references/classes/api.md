@@ -5,6 +5,10 @@
 
 Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api`.
 
+## Basic Attributes
+
+ * Super: None
+
 ## Functions and Methods
 
 ### register-single-subscription
@@ -46,7 +50,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
  * Position:
   - Constructor
   - Instance
- 
+
  * Independs from `this`
 
  * Return:
