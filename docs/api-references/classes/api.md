@@ -25,9 +25,9 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 **Examples**
 
- * [`simple.init.js` - line 25 → 40](../../../examples/simple.init.js#L25-L40)
+ * [`simple.init.js` - line 25 → 40](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/simple.init.js#L25-L40)
 
- * [`simple.init.js` - line 55 → 67](../../../examples/simple.init.js#L55-L67)
+ * [`simple.init.js` - line 55 → 67](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/simple.init.js#L55-L67)
 
 ## register-spawn-command
 
@@ -49,10 +49,10 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 **Examples**
 
- * [`shareable.init.js` - line 38 → 45](../../../examples/shareable.init.js#L38-L45)
+ * [`shareable.init.js` - line 38 → 45](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/shareable.init.js#L38-L45)
 
- * [`shareable.init.js` - line 102 → 105](../../../examples/shareable.init.js#L102-L105)
+ * [`shareable.init.js` - line 102 → 105](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/shareable.init.js#L102-L105)
 
- * [`shareable.init.js` - line 149 → 153](../../../examples/shareable.init.js#L149-L153)
+ * [`shareable.init.js` - line 149 → 153](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/shareable.init.js#L149-L153)
 
- * [`shareable.init.js` - line 174 → 177](../../../examples/shareable.init.js#L174-L177)
+ * [`shareable.init.js` - line 174 → 177](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/shareable.init.js#L174-L177)
