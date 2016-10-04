@@ -13,6 +13,12 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
  * Name: `registerSingleSubscription`
 
+ * Position:
+  - Constructor
+  - Instance
+
+ * Independs from `this`
+
  * Return:
   - [`SingleSubscription`](./single-subscription.md)
 
@@ -36,6 +42,12 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 **Attributes**
 
  * Name: `registerSpawnCommand`
+
+ * Position:
+  - Constructor
+  - Instance
+ 
+ * Independs from `this`
 
  * Return:
   - [`SpawnSubscription`](./spawn-subscription.md)
