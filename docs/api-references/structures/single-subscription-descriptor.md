@@ -3,4 +3,4 @@
 
 ## Overview
 
-Being returned object when call <code>[APIRootObject](.classes/api.md)::registerSpawnCommand</code>. Observes and Controls spawned process.
+Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSpawnCommand</code>
