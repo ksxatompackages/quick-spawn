@@ -9,7 +9,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 ### register-single-subscription
 
-**Prototype**
+**Attributes**
 
  * Name: `registerSingleSubscription`
 
@@ -33,7 +33,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 ### register-spawn-command
 
-**Prototype**
+**Attributes**
 
  * Name: `registerSpawnCommand`
 
