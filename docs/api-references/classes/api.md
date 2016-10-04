@@ -9,6 +9,9 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
  * Super: None
 
+ * Template:
+  - [EventEmitter](../templates/event-emitter.md)
+
 ## Functions and Methods
 
 ### register-single-subscription
