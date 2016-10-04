@@ -95,3 +95,10 @@ function getSidebarItemDirectory (param) {
     return undefined // still spawn bash
   }
 }
+
+/*
+ NOTE:
+  * Other docs link to this file, change link in these docs if this file get modified
+   - /README.md
+   - /docs/api-references/*.md
+*/

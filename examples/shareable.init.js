@@ -200,3 +200,10 @@ function getWorkingDirectory () {
     .getActivatePaneItem() // → Opening Tab
     .getDirectoryPath() // → Path to Directory which contains File in Opening Tab
 }
+
+/*
+ NOTE:
+  * Other docs link to this file, change link in these docs if this file get modified
+   - /README.md
+   - /docs/api-references/*.md
+*/
