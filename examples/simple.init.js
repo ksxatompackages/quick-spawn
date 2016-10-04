@@ -69,7 +69,9 @@ function registerSidebarBash () {
 
 // DESCRIPTION: getTabDirectory
 function getTabDirectory () {
-  return workspace.getActivePaneItem().getDirectoryPath()
+  return workspace // → Just global.atom.workspace, we imported it, remember?
+    .getActivatePaneItem() // → Opening Tab
+    .getDirectoryPath() // → Path to Directory which contains File in Opening Tab
 }
 
 // DESCRIPTION: getSidebarItemDirectory
