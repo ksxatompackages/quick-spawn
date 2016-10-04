@@ -41,7 +41,7 @@ npm install
 #### Clone directly - Windows
 
 ```bat
-git clone -b latest https://github.com/ksxatompackages/quick-spawn.git %USERPROFILE$\.atom\packages\quick-spawn
+git clone -b latest https://github.com/ksxatompackages/quick-spawn.git %USERPROFILE%\.atom\packages\quick-spawn
 npm install
 ```
 
