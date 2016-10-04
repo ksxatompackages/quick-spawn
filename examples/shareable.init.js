@@ -52,7 +52,7 @@ function registerCentralizedBash () {
     atomMenuBar: ['Packages', 'Quick Spawn', 'Shareable Bash'], // optional
     atomContextMenu: { // optional
       target: 'atom-workspace', // required
-      path: ['Quick Spawn', 'Shareable Bash'], // required
+      path: ['Quick Spawn', 'Shareable Bash'] // required
     },
     detachedTextBox: 'none',  // optional; default to 'none'
     oncreated (viewSubscription) { // optional, default to empty function; function takes 1 argument: created view-subscription
