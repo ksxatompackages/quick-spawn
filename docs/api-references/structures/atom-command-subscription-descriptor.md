@@ -3,4 +3,4 @@
 
 ## Overview
 
-Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSingleSubscription</code>
+Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSingleSubscription</code>.

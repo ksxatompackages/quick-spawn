@@ -15,8 +15,8 @@ Models of objects that provide methods and property getters/setters
 ## Structures
 Models of objects that contain only data-properties
 
- * [SingleSubscriptionDescriptor](./structures/single-subscription-descriptor.md) → Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSingleSubscription</code>
+ * [SingleSubscriptionDescriptor](./structures/single-subscription-descriptor.md) → Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSingleSubscription</code>.
 
- * [SpawnSubscriptionDescriptor](./structures/spawn-subscription-descriptor.md) → Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSpawnCommand</code>
+ * [SpawnSubscriptionDescriptor](./structures/spawn-subscription-descriptor.md) → Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSpawnCommand</code>.
 
- * [AtomCommandSubscriptionDescriptor](./structures/atom-command-subscription-descriptor.md) → Pass this as the first argument to function <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerAtomCommand</code>
+ * [AtomCommandSubscriptionDescriptor](./structures/atom-command-subscription-descriptor.md) → Pass this as the first argument to function <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerAtomCommand</code>.
