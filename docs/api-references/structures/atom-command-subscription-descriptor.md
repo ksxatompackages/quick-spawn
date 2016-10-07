@@ -3,4 +3,4 @@
 
 ## Overview
 
-Being returned object when call <code>[APIRootObject](.classes/api.md)::registerSingleSubscription</code>. Manages spawned process as well and registered atom command.
+Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSingleSubscription</code>.

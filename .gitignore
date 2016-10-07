@@ -2,10 +2,15 @@
 # This project
 .DS_Store
 .out
+.out.*
 out
+out.*
 quick-test
+quick-test.*
 tmp
 temp
+tmp.*
+temp.*
 *.tmp
 *.temp
 

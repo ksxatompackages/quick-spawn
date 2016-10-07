@@ -176,7 +176,7 @@ const quickSpawnAPIs = require(global.atom.packages.resolvePackagePath('quick-sp
 
 Register exactly one atom-command for exactly one spawn-subscription
 
-[Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/latest/examples/simple.init.js)
+[Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/simple.init.js)
 
 ```javascript
 quickSpawnAPIs.registerSingleSubscription({
@@ -199,7 +199,7 @@ quickSpawnAPIs.registerSingleSubscription({
 
 Register multiple atom-commands with different configurations with one shared spawn-subscription
 
-[Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/latest/examples/shareable.init.js)
+[Get full example `init.js`](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/shareable.init.js)
 
 ```javascript
 quickSpawnAPIs
