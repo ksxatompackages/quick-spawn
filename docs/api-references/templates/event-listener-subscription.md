@@ -7,7 +7,7 @@ Functions to add/remove event-listeners
 
 ## Basic Attributes
 
- * Template:
+* Template:
   - [EventEmitter](./event-emitter) ![stable]
 
 ## Functions and Methods
@@ -16,20 +16,20 @@ Functions to add/remove event-listeners
 
 **Attributes**
 
- * Name: `dispose` ![stable]
+* Name: `dispose` ![stable]
 
- * Position:
+* Position:
   - Instance ![stable]
 
- * Independs from `this` ![experimental]
+* Independent of `this` ![experimental]
 
- * Return: None ![experimental]
+* Return: None ![experimental]
 
- * Parameters: None ![stable]
+* Parameters: None ![stable]
 
 **Description**
 
- * Unregister the event-subscription
+* Unregister the event-subscription
 
 ## Properties
 
@@ -37,35 +37,35 @@ Functions to add/remove event-listeners
 
 **Attributes**
 
- * Name: `instance` ![stable]
+* Name: `instance` ![stable]
 
- * Configuration:
+* Configuration:
   - Readable ![fixed]
   - Unwritable ![experimental]
 
- * Return:
+* Return:
   - [`EventEmitter`](./event-emitter.md) ![stable]
 
 **Description**
 
- * Returns the event-emitter that 'this' subscription bound to
+* Returns the event-emitter that 'this' subscription bound to
 
 ### Disposed
 
 **Attributes**
 
- * Name: `disposed` ![stable]
+* Name: `disposed` ![stable]
 
- * Configuration:
+* Configuration:
   - Readable ![fixed]
   - Unwritable ![experimental]
 
- * Return:
+* Return:
   - `boolean` ![stable]
 
 **Description**
 
- * Being `true` when the subscription get disposed
+* Being `true` when the subscription get disposed
 
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/stable.svg
