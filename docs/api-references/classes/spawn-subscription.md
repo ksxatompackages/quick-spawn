@@ -5,7 +5,7 @@
 
 Being returned object when call <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerSpawnCommand</code>. Observes and Controls registered atom-command as well as [`SpawnSubscription`](./classes/spawn-subscription.md) object.
 
-[fixed]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/fixed.svg
-[stable]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/stable.svg
-[exprimental]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/exprimental.svg
-[deprecated]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/deprecated.svg
+[fixed]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/fixed.svg
+[stable]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/stable.svg
+[exprimental]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/exprimental.svg
+[deprecated]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/deprecated.svg
