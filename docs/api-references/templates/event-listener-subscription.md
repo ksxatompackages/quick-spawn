@@ -8,7 +8,7 @@ Functions to add/remove event-listeners
 ## Basic Attributes
 
  * Template:
-  - [EventEmitter](./event-emitter)
+  - [EventEmitter](./event-emitter) ![stable]
 
 ## Functions and Methods
 
@@ -16,16 +16,16 @@ Functions to add/remove event-listeners
 
 **Attributes**
 
- * Name: `dispose`
+ * Name: `dispose` ![stable]
 
  * Position:
-  - Instance
+  - Instance ![stable]
 
- * Independs from `this`
+ * Independs from `this` ![exprimental]
 
- * Return: None
+ * Return: None ![exprimental]
 
- * Parameters: None
+ * Parameters: None ![stable]
 
 **Description**
 
@@ -37,14 +37,14 @@ Functions to add/remove event-listeners
 
 **Attributes**
 
- * Name: `instance`
+ * Name: `instance` ![stable]
 
  * Configuration:
-  - Readable
-  - Unwritable
+  - Readable ![fixed]
+  - Unwritable ![exprimental]
 
  * Return:
-  - [`EventEmitter`](./event-emitter.md)
+  - [`EventEmitter`](./event-emitter.md) ![stable]
 
 **Description**
 
@@ -54,14 +54,14 @@ Functions to add/remove event-listeners
 
 **Attributes**
 
- * Name: `disposed`
+ * Name: `disposed` ![stable]
 
  * Configuration:
-  - Readable
-  - Unwritable
+  - Readable ![fixed]
+  - Unwritable ![exprimental]
 
  * Return:
-  - `boolean`
+  - `boolean` ![stable]
 
 **Description**
 
