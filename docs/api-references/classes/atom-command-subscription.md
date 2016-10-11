@@ -7,12 +7,12 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 
 ## Basic Attributes
 
- * Super: None ![exprimental]
+ * Super: None ![experimental]
 
  * Template:
-  - [EventEmitter](../templates/event-emitter.md) ![exprimental]
+  - [EventEmitter](../templates/event-emitter.md) ![experimental]
 
-[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.0.0/docs/images/badges/fixed.svg
-[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.0.0/docs/images/badges/stable.svg
-[exprimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.0.0/docs/images/badges/exprimental.svg
-[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.0.0/docs/images/badges/deprecated.svg
+[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/fixed.svg
+[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/stable.svg
+[experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/experimental.svg
+[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/deprecated.svg
