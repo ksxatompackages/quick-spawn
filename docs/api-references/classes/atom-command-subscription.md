@@ -7,9 +7,9 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 
 ## Basic Attributes
 
- * Super: None ![experimental]
+* Super: None ![experimental]
 
- * Template:
+* Template:
   - [EventEmitter](../templates/event-emitter.md) ![experimental]
 
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/fixed.svg
