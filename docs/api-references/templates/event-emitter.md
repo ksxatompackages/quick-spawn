@@ -44,7 +44,7 @@ Functions to add/remove event-listeners
  * Position:
   - Instance ![stable]
 
- * Depends on `this` ![exprimental]
+ * Depends on `this` ![experimental]
 
  * Return:
   - [`EventListenerSubscription`](./event-listener-subscription.md)
@@ -61,7 +61,7 @@ Functions to add/remove event-listeners
 
   * Once event is fired, the subscription automatically get disposed
 
-[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/fixed.svg
-[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/stable.svg
-[exprimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/experimental.svg
-[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/deprecated.svg
+[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/fixed.svg
+[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/stable.svg
+[experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/experimental.svg
+[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/deprecated.svg
