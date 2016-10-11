@@ -7,7 +7,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 ## Basic Attributes
 
- * Super: None
+ * Super: None ![stable]
 
  * Template:
   - [EventEmitter](../templates/event-emitter.md) ![exprimental]
