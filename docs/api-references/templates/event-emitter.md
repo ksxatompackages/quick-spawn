@@ -61,7 +61,7 @@ Functions to add/remove event-listeners
 
   * Once event is fired, the subscription automatically get disposed
 
-  [fixed]: ../../images/badges/fixed.svg
-  [stable]: ../../images/badges/stable.svg
-  [exprimental]: ../../images/badges/exprimental.svg
-  [deprecated]: ../../images/badges/deprecated.svg
+  [fixed]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/fixed.svg
+  [stable]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/stable.svg
+  [exprimental]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/exprimental.svg
+  [deprecated]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/deprecated.svg
