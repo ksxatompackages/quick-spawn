@@ -1,4 +1,4 @@
-# Table of Contents ![exprimental](../../images/badges/exprimental.svg)
+# Table of Contents ![exprimental]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [EventEmitter](./event-emitter.md)
 
 ## Overview
