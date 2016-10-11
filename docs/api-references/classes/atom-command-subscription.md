@@ -5,7 +5,14 @@
 
 Being returned object when call <code>[APIRootObject](.classes/api.md)::registerSingleSubscription</code>. Manages spawned process as well and registered atom command.
 
-[fixed]: ../../images/badges/fixed.svg
-[stable]: ../../images/badges/stable.svg
-[experimental]: ../../images/badges/experimental.svg
-[deprecated]: ../../images/badges/deprecated.svg
+## Basic Attributes
+
+ * Super: None ![exprimental]
+
+ * Template:
+  - [EventEmitter](../templates/event-emitter.md) ![exprimental]
+
+[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/fixed.svg
+[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/stable.svg
+[exprimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/experimental.svg
+[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/deprecated.svg

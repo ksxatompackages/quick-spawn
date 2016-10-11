@@ -7,7 +7,7 @@ Functions to add/remove event-listeners
 
 ## Basic Attributes
 
- * Template: None
+ * Template: None ![stable]
 
 ## Functions and Methods
 
@@ -15,10 +15,10 @@ Functions to add/remove event-listeners
 
 **Attributes**
 
- * Name: `on`
+ * Name: `on` ![stable]
 
  * Position:
-  - Instance
+  - Instance ![stable]
 
  * Depends on `this`
 
@@ -26,8 +26,8 @@ Functions to add/remove event-listeners
   - [`EventListenerSubscription`](./event-listener-subscription.md)
 
  * Parameters:
-  - `string name` (required)
-  - `function handle` (required)
+  - `string name` (required) ![stable]
+  - `function handle` (required) ![stable]
 
 **Description**
 
@@ -39,19 +39,19 @@ Functions to add/remove event-listeners
 
 **Attributes**
 
- * Name: `once`
+ * Name: `once` ![stable]
 
  * Position:
-  - Instance
+  - Instance ![stable]
 
- * Depends on `this`
+ * Depends on `this` ![exprimental]
 
  * Return:
   - [`EventListenerSubscription`](./event-listener-subscription.md)
 
  * Parameters:
-  - `string name` (required)
-  - `function handle` (required)
+  - `string name` (required) ![stable]
+  - `function handle` (required) ![stable]
 
  **Description**
 
@@ -61,7 +61,7 @@ Functions to add/remove event-listeners
 
   * Once event is fired, the subscription automatically get disposed
 
-  [fixed]: ../../images/badges/fixed.svg
-  [stable]: ../../images/badges/stable.svg
-  [experimental]: ../../images/badges/experimental.svg
-  [deprecated]: ../../images/badges/deprecated.svg
+[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/fixed.svg
+[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/stable.svg
+[exprimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/experimental.svg
+[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/deprecated.svg

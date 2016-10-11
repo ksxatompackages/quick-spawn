@@ -7,7 +7,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 ## Basic Attributes
 
- * Super: None
+ * Super: None ![stable]
 
  * Template:
   - [EventEmitter](../templates/event-emitter.md) ![experimental]
@@ -78,7 +78,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
  * [`shareable.init.js` - line 174 → 177](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/shareable.init.js#L174-L177)
 
-[fixed]: ../../images/badges/fixed.svg
-[stable]: ../../images/badges/stable.svg
-[experimental]: ../../images/badges/experimental.svg
-[deprecated]: ../../images/badges/deprecated.svg
+[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/fixed.svg
+[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/stable.svg
+[exprimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/experimental.svg
+[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/deprecated.svg
