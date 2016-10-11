@@ -1,4 +1,4 @@
-# Table of Contents
+# Table of Contents ![stable]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Classes](.) → [APIRootObject](./api.md)
 
 ## Overview
@@ -10,7 +10,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
  * Super: None
 
  * Template:
-  - [EventEmitter](../templates/event-emitter.md)
+  - [EventEmitter](../templates/event-emitter.md) ![exprimental]
 
 ## Functions and Methods
 
@@ -18,19 +18,19 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 **Attributes**
 
- * Name: `registerSingleSubscription`
+ * Name: `registerSingleSubscription` ![stable]
 
  * Position:
-  - Constructor
-  - Instance
+  - Constructor ![exprimental]
+  - Instance ![stable]
 
  * Independs from `this`
 
  * Return:
-  - [`SingleSubscription`](./single-subscription.md)
+  - [`SingleSubscription`](./single-subscription.md) ![stable]
 
  * Parameters:
-  - <code>[SingleSubscriptionDescriptor](../structures/single-subscription-descriptor.md) descriptor</code> (required)
+  - <code>[SingleSubscriptionDescriptor](../structures/single-subscription-descriptor.md) descriptor</code> (required) ![stable]
 
 **Description**
 
@@ -48,19 +48,19 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 **Attributes**
 
- * Name: `registerSpawnCommand`
+ * Name: `registerSpawnCommand` ![stable]
 
  * Position:
-  - Constructor
-  - Instance
+  - Constructor ![exprimental]
+  - Instance ![stable]
 
- * Independs from `this`
+ * Independs from `this` ![stable]
 
  * Return:
-  - [`SpawnSubscription`](./spawn-subscription.md)
+  - [`SpawnSubscription`](./spawn-subscription.md) ![stable]
 
  * Parameters:
-  - <code>[SpawnSubscriptionDescriptor](../structures/spawn-command-descriptor.md) descriptor</code> (required)
+  - <code>[SpawnSubscriptionDescriptor](../structures/spawn-command-descriptor.md) descriptor</code> (required) ![stable]
 
 **Description**
 
@@ -77,3 +77,8 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
  * [`shareable.init.js` - line 149 → 153](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/shareable.init.js#L149-L153)
 
  * [`shareable.init.js` - line 174 → 177](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/shareable.init.js#L174-L177)
+
+[fixed]: ../../images/badges/fixed.svg
+[stable]: ../../images/badges/stable.svg
+[exprimental]: ../../images/badges/exprimental.svg
+[deprecated]: ../../images/badges/deprecated.svg

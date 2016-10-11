@@ -1,4 +1,4 @@
-# Table of Contents
+# Table of Contents ![exprimental]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [EventEmitter](./event-emitter.md)
 
 ## Overview
@@ -60,3 +60,8 @@ Functions to add/remove event-listeners
   * Create and Return a subscription that can deliver its own event to the original emitter and be disposed
 
   * Once event is fired, the subscription automatically get disposed
+
+  [fixed]: ../../images/badges/fixed.svg
+  [stable]: ../../images/badges/stable.svg
+  [exprimental]: ../../images/badges/exprimental.svg
+  [deprecated]: ../../images/badges/deprecated.svg

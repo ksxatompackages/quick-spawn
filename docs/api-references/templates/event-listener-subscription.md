@@ -1,4 +1,4 @@
-# Table of Contents
+# Table of Contents ![exprimental]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [EventListenerSubscription](./event-listener-subscription.md)
 
 ## Overview
@@ -66,3 +66,8 @@ Functions to add/remove event-listeners
 **Description**
 
  * Being `true` when the subscription get disposed
+
+ [fixed]: ../../images/badges/fixed.svg
+ [stable]: ../../images/badges/stable.svg
+ [exprimental]: ../../images/badges/exprimental.svg
+ [deprecated]: ../../images/badges/deprecated.svg
