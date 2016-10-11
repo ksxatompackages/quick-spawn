@@ -4,3 +4,8 @@
 ## Overview
 
 Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSpawnCommand</code>.
+
+[fixed]: ../../images/badges/fixed.svg
+[stable]: ../../images/badges/stable.svg
+[exprimental]: ../../images/badges/exprimental.svg
+[deprecated]: ../../images/badges/deprecated.svg
