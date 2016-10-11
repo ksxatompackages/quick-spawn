@@ -26,7 +26,7 @@ Object models that provide properties to build [Classes](#classes) and [Structur
 
  * [EventEmitter](./templates/event-emitter.md) → Functions to add/remove event-listeners
 
- [fixed]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/fixed.svg
- [stable]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/stable.svg
- [exprimental]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/exprimental.svg
- [deprecated]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/deprecated.svg
+ [fixed]: https://rawgithub.com/ksxatompackages/quick-spawn/latest/docs/images/badges/fixed.svg
+ [stable]: https://rawgithub.com/ksxatompackages/quick-spawn/latest/docs/images/badges/stable.svg
+ [exprimental]: https://rawgithub.com/ksxatompackages/quick-spawn/latest/docs/images/badges/exprimental.svg
+ [deprecated]: https://rawgithub.com/ksxatompackages/quick-spawn/latest/docs/images/badges/deprecated.svg
