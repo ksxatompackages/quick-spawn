@@ -1,4 +1,4 @@
-# Table of Contents ![exprimental]
+# Table of Contents ![experimental]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [EventEmitter](./event-emitter.md)
 
 ## Overview
@@ -61,7 +61,7 @@ Functions to add/remove event-listeners
 
   * Once event is fired, the subscription automatically get disposed
 
-  [fixed]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/fixed.svg
-  [stable]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/stable.svg
-  [exprimental]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/exprimental.svg
-  [deprecated]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/deprecated.svg
+[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/fixed.svg
+[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/stable.svg
+[exprimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/experimental.svg
+[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/deprecated.svg

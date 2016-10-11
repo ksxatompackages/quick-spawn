@@ -5,7 +5,7 @@
 
 Pass this as the first argument to function <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerAtomCommand</code>.
 
-[fixed]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/fixed.svg
-[stable]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/stable.svg
-[exprimental]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/exprimental.svg
-[deprecated]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/deprecated.svg
+[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/fixed.svg
+[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/stable.svg
+[exprimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/experimental.svg
+[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/deprecated.svg

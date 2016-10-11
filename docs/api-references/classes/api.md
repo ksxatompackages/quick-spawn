@@ -10,7 +10,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
  * Super: None ![stable]
 
  * Template:
-  - [EventEmitter](../templates/event-emitter.md) ![exprimental]
+  - [EventEmitter](../templates/event-emitter.md) ![experimental]
 
 ## Functions and Methods
 
@@ -21,7 +21,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
  * Name: `registerSingleSubscription` ![stable]
 
  * Position:
-  - Constructor ![exprimental]
+  - Constructor ![experimental]
   - Instance ![stable]
 
  * Independs from `this`
@@ -51,7 +51,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
  * Name: `registerSpawnCommand` ![stable]
 
  * Position:
-  - Constructor ![exprimental]
+  - Constructor ![experimental]
   - Instance ![stable]
 
  * Independs from `this` ![stable]
@@ -78,7 +78,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
  * [`shareable.init.js` - line 174 → 177](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/shareable.init.js#L174-L177)
 
-[fixed]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/fixed.svg
-[stable]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/stable.svg
-[exprimental]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/exprimental.svg
-[deprecated]: https://rawgithub.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/deprecated.svg
+[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/fixed.svg
+[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/stable.svg
+[exprimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/experimental.svg
+[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.0/docs/images/badges/deprecated.svg
