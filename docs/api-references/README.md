@@ -20,3 +20,13 @@ Models of objects that contain only data-properties
  * [SpawnSubscriptionDescriptor](./structures/spawn-subscription-descriptor.md) → Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSpawnCommand</code>.
 
  * [AtomCommandSubscriptionDescriptor](./structures/atom-command-subscription-descriptor.md) → Pass this as the first argument to function <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerAtomCommand</code>.
+
+## Templates
+Object models that provide properties to build [Classes](#classes) and [Structures](#structures)
+
+ * [EventEmitter](./templates/event-emitter.md) → Functions to add/remove event-listeners
+
+ [fixed]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/fixed.svg
+ [stable]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/stable.svg
+ [exprimental]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/exprimental.svg
+ [deprecated]: https://raw.githubusercontent.com/ksxatompackages/quick-spawn/documentation/docs/images/badges/deprecated.svg
