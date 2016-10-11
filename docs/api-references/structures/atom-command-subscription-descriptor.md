@@ -1,4 +1,4 @@
-# Table of Contents
+# Table of Contents ![stable](../../images/badges/stable.svg)
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Structures](.) → [APIRootObject](./api.md)
 
 ## Overview
