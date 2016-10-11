@@ -24,7 +24,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
   - Constructor ![experimental]
   - Instance ![stable]
 
-* Independs from `this`
+* Independent of `this`
 
 * Return:
   - [`SingleSubscription`](./single-subscription.md) ![stable]
@@ -54,7 +54,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
   - Constructor ![experimental]
   - Instance ![stable]
 
-* Independs from `this` ![stable]
+* Independent of `this` ![stable]
 
 * Return:
   - [`SpawnSubscription`](./spawn-subscription.md) ![stable]

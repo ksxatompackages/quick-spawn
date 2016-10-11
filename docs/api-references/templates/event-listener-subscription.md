@@ -21,7 +21,7 @@ Functions to add/remove event-listeners
 * Position:
   - Instance ![stable]
 
-* Independs from `this` ![experimental]
+* Independent of `this` ![experimental]
 
 * Return: None ![experimental]
 

@@ -20,7 +20,7 @@ Functions to add/remove event-listeners
 * Position:
   - Instance ![stable]
 
-* Depends on `this`
+* Dependent on `this`
 
 * Return:
   - [`EventListenerSubscription`](./event-listener-subscription.md)
@@ -44,7 +44,7 @@ Functions to add/remove event-listeners
 * Position:
   - Instance ![stable]
 
-* Depends on `this` ![experimental]
+* Dependent on `this` ![experimental]
 
 * Return:
   - [`EventListenerSubscription`](./event-listener-subscription.md)
