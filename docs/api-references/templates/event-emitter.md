@@ -7,7 +7,7 @@ Functions to add/remove event-listeners
 
 ## Basic Attributes
 
- * Template: None ![stable]
+* Template: None ![stable]
 
 ## Functions and Methods
 
@@ -15,51 +15,51 @@ Functions to add/remove event-listeners
 
 **Attributes**
 
- * Name: `on` ![stable]
+* Name: `on` ![stable]
 
- * Position:
+* Position:
   - Instance ![stable]
 
- * Depends on `this`
+* Depends on `this`
 
- * Return:
+* Return:
   - [`EventListenerSubscription`](./event-listener-subscription.md)
 
- * Parameters:
+* Parameters:
   - `string name` (required) ![stable]
   - `function handle` (required) ![stable]
 
 **Description**
 
- * Register an event-listener
+* Register an event-listener
 
- * Create and Return a subscription that can deliver its own event to the original emitter and be disposed
+* Create and Return a subscription that can deliver its own event to the original emitter and be disposed
 
 ### Register Event Listener (Once)
 
 **Attributes**
 
- * Name: `once` ![stable]
+* Name: `once` ![stable]
 
- * Position:
+* Position:
   - Instance ![stable]
 
- * Depends on `this` ![experimental]
+* Depends on `this` ![experimental]
 
- * Return:
+* Return:
   - [`EventListenerSubscription`](./event-listener-subscription.md)
 
- * Parameters:
+* Parameters:
   - `string name` (required) ![stable]
   - `function handle` (required) ![stable]
 
  **Description**
 
-  * Register an event-listener
+* Register an event-listener
 
-  * Create and Return a subscription that can deliver its own event to the original emitter and be disposed
+* Create and Return a subscription that can deliver its own event to the original emitter and be disposed
 
-  * Once event is fired, the subscription automatically get disposed
+* Once event is fired, the subscription automatically get disposed
 
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/stable.svg
