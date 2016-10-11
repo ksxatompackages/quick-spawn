@@ -7,5 +7,5 @@ Pass this as the first argument to function <code>[APIRootObject](./classes/api.
 
 [fixed]: ../../images/badges/fixed.svg
 [stable]: ../../images/badges/stable.svg
-[exprimental]: ../../images/badges/exprimental.svg
+[experimental]: ../../images/badges/experimental.svg
 [deprecated]: ../../images/badges/deprecated.svg

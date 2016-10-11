@@ -1,4 +1,4 @@
-# Table of Contents ![exprimental]
+# Table of Contents ![experimental]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [EventEmitter](./event-emitter.md)
 
 ## Overview
@@ -63,5 +63,5 @@ Functions to add/remove event-listeners
 
   [fixed]: ../../images/badges/fixed.svg
   [stable]: ../../images/badges/stable.svg
-  [exprimental]: ../../images/badges/exprimental.svg
+  [experimental]: ../../images/badges/experimental.svg
   [deprecated]: ../../images/badges/deprecated.svg

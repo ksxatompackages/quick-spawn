@@ -28,5 +28,5 @@ Object models that provide properties to build [Classes](#classes) and [Structur
 
  [fixed]: ../images/badges/fixed.svg
  [stable]: ../images/badges/stable.svg
- [exprimental]: ../images/badges/exprimental.svg
+ [experimental]: ../images/badges/experimental.svg
  [deprecated]: ../images/badges/deprecated.svg

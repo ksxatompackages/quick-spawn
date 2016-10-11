@@ -10,7 +10,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
  * Super: None
 
  * Template:
-  - [EventEmitter](../templates/event-emitter.md) ![exprimental]
+  - [EventEmitter](../templates/event-emitter.md) ![experimental]
 
 ## Functions and Methods
 
@@ -21,7 +21,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
  * Name: `registerSingleSubscription` ![stable]
 
  * Position:
-  - Constructor ![exprimental]
+  - Constructor ![experimental]
   - Instance ![stable]
 
  * Independs from `this`
@@ -51,7 +51,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
  * Name: `registerSpawnCommand` ![stable]
 
  * Position:
-  - Constructor ![exprimental]
+  - Constructor ![experimental]
   - Instance ![stable]
 
  * Independs from `this` ![stable]
@@ -80,5 +80,5 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 [fixed]: ../../images/badges/fixed.svg
 [stable]: ../../images/badges/stable.svg
-[exprimental]: ../../images/badges/exprimental.svg
+[experimental]: ../../images/badges/experimental.svg
 [deprecated]: ../../images/badges/deprecated.svg
