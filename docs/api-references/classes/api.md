@@ -1,5 +1,5 @@
 # Table of Contents ![stable]
-[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Classes](.) → [APIRootObject](./api.md)
+[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Classes](.) → [`APIRootObject`](./api.md)
 
 ## Overview
 
@@ -10,11 +10,11 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 * Super: None ![stable]
 
 * Template:
-  - [EventEmitter](../templates/event-emitter.md) ![experimental]
+  - [`EventEmitter`](../templates/event-emitter.md) ![experimental]
 
 ## Functions and Methods
 
-### Register Single Subscription
+### Register Single Subscription ![stable]
 
 **Attributes**
 
@@ -24,7 +24,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
   - Constructor ![experimental]
   - Instance ![stable]
 
-* Independent of `this`
+* Independent of `this` ![stable]
 
 * Return:
   - [`SingleSubscription`](./single-subscription.md) ![stable]
@@ -44,7 +44,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 * [`simple.init.js` - line 55 → 67](https://github.com/ksxatompackages/quick-spawn/blob/latest/examples/simple.init.js#L55-L67)
 
-### Register Spawn Command
+### Register Spawn Command ![stable]
 
 **Attributes**
 

@@ -1,5 +1,5 @@
 # Table of Contents ![stable]
-[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Classes](.) → [APIRootObject](./api.md)
+[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Classes](.) → [`SingleSubscription`](./single-subscription.md)
 
 ## Overview
 

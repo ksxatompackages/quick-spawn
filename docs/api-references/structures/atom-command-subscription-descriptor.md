@@ -1,5 +1,5 @@
 # Table of Contents ![stable]
-[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Structures](.) → [APIRootObject](./api.md)
+[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Structures](.) → [`AtomCommandSubscriptionDescriptor`](./atom-command-subscription-descriptor.md)
 
 ## Overview
 

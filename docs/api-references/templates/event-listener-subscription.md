@@ -8,64 +8,9 @@ Functions to add/remove event-listeners
 ## Basic Attributes
 
 * Template:
-  - [EventEmitter](./event-emitter) ![stable]
-
-## Functions and Methods
-
-### Dispose
-
-**Attributes**
-
-* Name: `dispose` ![stable]
-
-* Position:
-  - Instance ![stable]
-
-* Independent of `this` ![experimental]
-
-* Return: None ![experimental]
-
-* Parameters: None ![stable]
-
-**Description**
-
-* Unregister the event-subscription
-
-## Properties
-
-### Instance
-
-**Attributes**
-
-* Name: `instance` ![stable]
-
-* Configuration:
-  - Readable ![fixed]
-  - Unwritable ![experimental]
-
-* Return:
   - [`EventEmitter`](./event-emitter.md) ![stable]
-
-**Description**
-
-* Returns the event-emitter that 'this' subscription bound to
-
-### Disposed
-
-**Attributes**
-
-* Name: `disposed` ![stable]
-
-* Configuration:
-  - Readable ![fixed]
-  - Unwritable ![experimental]
-
-* Return:
-  - `boolean` ![stable]
-
-**Description**
-
-* Being `true` when the subscription get disposed
+  - [`Disposable`](./disposable.md) ![stable]
+  - [`ObjectDelegate`](./object-delegate.md) ![stable]
 
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/stable.svg
