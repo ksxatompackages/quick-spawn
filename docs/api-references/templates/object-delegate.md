@@ -1,6 +1,10 @@
 # Table of Contents ![experimental]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [ObjectDelegate](./object-delegate.md)
 
+## Overview
+
+Provide one lookup property `instance`.
+
 ## Basic Attributes
 
 * Templates: None ![stable]

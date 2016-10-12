@@ -3,7 +3,7 @@
 
 ## Overview
 
-Functions to add/remove event-listeners
+Provide on function `dispose` and one property `disposed`, compatible with [`CompositeDisposable`](https://atom.io/docs/api/v1.11.1/CompositeDisposable)
 
 ## Basic Attributes
 

@@ -3,7 +3,7 @@
 
 ## Overview
 
-Functions to add/remove event-listeners
+Being returned when make event-listener-registration. Used to remove the registered event-listener and lookup assigned object.
 
 ## Basic Attributes
 
