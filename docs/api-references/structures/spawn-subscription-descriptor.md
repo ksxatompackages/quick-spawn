@@ -1,4 +1,4 @@
-# Table of Contents ![stable]
+# `SpawnSubscriptionDescriptor` ![stable]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Structures](.) → [`SpawnSubscriptionDescriptor`](./spawn-subscription-descriptor.md)
 
 ## Overview

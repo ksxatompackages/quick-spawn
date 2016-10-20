@@ -1,4 +1,4 @@
-# Table of Contents ![experimental]
+# `ObjectDelegate` ![experimental]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [ObjectDelegate](./object-delegate.md)
 
 ## Overview

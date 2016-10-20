@@ -1,2 +1,2 @@
-# Table of Contents ![stable]
+# `ViewSubscription` ![stable]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Classes](.) → [`ViewSubscription`](./view-subscription.md)
