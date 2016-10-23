@@ -15,7 +15,7 @@ Pass this as the first argument to function <code>[APIRootObject](./classes/api.
 
 * Type: [`CommandDefiner`](./command-definer.md#command-definer-) ![stable]
 
-* Required ![stable]
+* ![required] ![stable]
 
 **Description**
 
@@ -29,7 +29,7 @@ Define path to executable (binary)
 
 * Type: <code>Array&lt;[CommandDefiner](./command-definer.md#command-definer-)&gt;</code> ![stable]
 
-* Optional ![stable]
+* ![optional] ![stable]
   - Default to `[]` ![stable]
 
 **Description**
@@ -44,7 +44,7 @@ Defines arguments will be passed
 
 * Type: [`CommandDefiner`](./command-definer.md#command-definer-) ![stable]
 
-* Optional ![stable]
+* ![optional] ![stable]
   - Default to `$HOME` ![stable]
 
 **Description**
@@ -59,7 +59,7 @@ Defines a working directory for command to execute
 
 * Type: `boolean`
 
-* Optional ![stable]
+* ![optional] ![stable]
   - Default to `false` ![stable]
 
 **Description**
@@ -74,7 +74,7 @@ Whether spawned child process should be attached to atom process
 
 * Type: `boolean`
 
-* Optional ![stable]
+* ![optional] ![stable]
   - Default to `true`
 
 **Description**
