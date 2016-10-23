@@ -42,6 +42,7 @@ Being returned object when call <code>[SpawnSubscription](./classes/spawn-subscr
 
 * Parameters
   - `Object param` ![stable]
+    - `string command` ![experimental]
     - `unsigned int status` ![stable]
     - `string signal` ![stable]
 
