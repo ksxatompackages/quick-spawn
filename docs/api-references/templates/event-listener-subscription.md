@@ -1,71 +1,16 @@
-# Table of Contents ![experimental]
+# `EventListenerSubscription` ![experimental]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [EventListenerSubscription](./event-listener-subscription.md)
 
 ## Overview
 
-Functions to add/remove event-listeners
+Being returned when make event-listener-registration. Used to remove the registered event-listener and lookup assigned object.
 
 ## Basic Attributes
 
 * Template:
-  - [EventEmitter](./event-emitter) ![stable]
-
-## Functions and Methods
-
-### Dispose
-
-**Attributes**
-
-* Name: `dispose` ![stable]
-
-* Position:
-  - Instance ![stable]
-
-* Independent of `this` ![experimental]
-
-* Return: None ![experimental]
-
-* Parameters: None ![stable]
-
-**Description**
-
-* Unregister the event-subscription
-
-## Properties
-
-### Instance
-
-**Attributes**
-
-* Name: `instance` ![stable]
-
-* Configuration:
-  - Readable ![fixed]
-  - Unwritable ![experimental]
-
-* Return:
   - [`EventEmitter`](./event-emitter.md) ![stable]
-
-**Description**
-
-* Returns the event-emitter that 'this' subscription bound to
-
-### Disposed
-
-**Attributes**
-
-* Name: `disposed` ![stable]
-
-* Configuration:
-  - Readable ![fixed]
-  - Unwritable ![experimental]
-
-* Return:
-  - `boolean` ![stable]
-
-**Description**
-
-* Being `true` when the subscription get disposed
+  - [`Disposable`](./disposable.md) ![stable]
+  - [`ObjectDelegate`](./object-delegate.md) ![stable]
 
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/stable.svg

@@ -1,5 +1,5 @@
-# Table of Contents ![stable]
-[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Structures](.) → [APIRootObject](./api.md)
+# `SingleSubscriptionDescriptor` ![stable]
+[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Structures](.) → [`SingleSubscriptionDescriptor`](./single-subscription-descriptor.md)
 
 ## Overview
 

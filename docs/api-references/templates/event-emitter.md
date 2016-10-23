@@ -1,4 +1,4 @@
-# Table of Contents ![experimental]
+# `EventEmitter` ![experimental]
 [Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [EventEmitter](./event-emitter.md)
 
 ## Overview
@@ -11,7 +11,7 @@ Functions to add/remove event-listeners
 
 ## Functions and Methods
 
-### Register Event Listener
+### Register Event Listener ![stable]
 
 **Attributes**
 
@@ -35,7 +35,7 @@ Functions to add/remove event-listeners
 
 * Create and Return a subscription that can deliver its own event to the original emitter and be disposed
 
-### Register Event Listener (Once)
+### Register Event Listener (Once) ![experimental]
 
 **Attributes**
 
@@ -47,7 +47,7 @@ Functions to add/remove event-listeners
 * Dependent on `this` ![experimental]
 
 * Return:
-  - [`EventListenerSubscription`](./event-listener-subscription.md)
+  - [`EventListenerSubscription`](./event-listener-subscription.md) ![stable]
 
 * Parameters:
   - `string name` (required) ![stable]
