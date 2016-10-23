@@ -16,7 +16,7 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 
 ## Events
 
-### Show
+### Show ![stable]
 
 **Attributes**
 
@@ -32,7 +32,7 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 
 * Emits when a view was shown via executing an atom-command
 
-### Hide
+### Hide ![stable]
 
 **Attributes**
 
@@ -48,7 +48,7 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 
 * Emits when a view is closed by any mean
 
-### Spawn
+### Spawn ![stable]
 
 **Attributes**
 
@@ -69,7 +69,7 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 
 * Emits when the command is executed via the bound `SpawnSubscription` instance
 
-### Exit
+### Exit ![stable]
 
 **Attributes**
 
@@ -78,6 +78,7 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 * Parameters
   - `Object param` ![stable]
     - <code>[SpawnSubscription](./spawn-subscription.md) spawnSubscription</code> ![stable]
+    - `string command` ![experimental]
     - `unsigned int status` ![stable]
     - `string signal` ![stable]
 
@@ -85,7 +86,7 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 
 * Emits when the child process exits
 
-### Destroy
+### Destroy ![stable]
 
 **Attributes**
 
