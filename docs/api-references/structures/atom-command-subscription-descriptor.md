@@ -41,7 +41,7 @@ Specify target elements selector
 
 * Name: `type` ![stable]
 
-* Type: [`ViewTypeStringEnum`](./view-type-string-enum.md#string-type-enum-)
+* Type: `enum string { 'tab', 'panel', 'dialog', 'hidden' }` ![stable]
 
 * ![optional] ![stable]
   - Default to `'tab'`
