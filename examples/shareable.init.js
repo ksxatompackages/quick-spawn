@@ -151,14 +151,14 @@ function registerBackgroundBash () {
     suspended: false,
     __proto__: null
   })
-  const registerSpawnCommand = detachedTextBox => spawnSubscription.registerAtomCommand({
+  const registerAtomCommand = detachedTextBox => spawnSubscription.registerAtomCommand({
     atomCmd: 'background-bash:' + detachedTextBox,
     atomTarget: 'atom-workspace',
     type: 'hidden',
     detachedTextBox,
     __proto__: null
   })
-  const everyAtomCommandSubsciptions = ['mini-editor', 'editor', 'tab'].map(registerSpawnCommand)
+  const everyAtomCommandSubsciptions = ['mini-editor', 'editor', 'tab'].map(registerAtomCommand)
   return {spawnSubscription, everyAtomCommandSubsciptions}
 }
 
