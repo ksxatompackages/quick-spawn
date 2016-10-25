@@ -23,6 +23,8 @@ Models of objects that contain only data-properties
 
 * [AtomCommandSubscriptionDescriptor](./structures/atom-command-subscription-descriptor.md) → Pass this as the first argument to function <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerAtomCommand</code>.
 
+* [CommandDefiner](./structures/command-definer.md) → Data type of `Descriptor::execCmd`, `Descriptor::workingDirectory` and `Descriptor::execArguments`.
+
 ## Templates
 Object models that provide properties to build [Classes](#classes) and [Structures](#structures)
 
