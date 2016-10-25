@@ -73,29 +73,29 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 > You can't do much in Settings, to do more, checkout [`config.cson`](#tweak-by-opening-configcson).
 
- * **Basic Use: Enabled** *(Checkbox)*: Whether basic feature is enabled, default to on.
+* **Basic Use: Enabled** *(Checkbox)*: Whether basic feature is enabled, default to on.
 
- * **Basic Use: Executable Path** *(Text Input)*: Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) or just install [Git](https://git-scm.com/) to get bash for Windows).
+* **Basic Use: Executable Path** *(Text Input)*: Which program will be executed if you command, default to `bash` (Checkout [MSYS2](https://msys2.github.io/) or just install [Git](https://git-scm.com/) to get bash for Windows).
 
- * **Basic Use: Working Directory** *(Select List)*: Either `activated-project-directory`, `activated-file-container`, or `executable-container`. Default to `activated-project-directory`.
+* **Basic Use: Working Directory** *(Select List)*: Either `activated-project-directory`, `activated-file-container`, or `executable-container`. Default to `activated-project-directory`.
 
- * **Basic Use: Hide Stdin** *(Checkbox)*: Whether typed input should be hidden, default to on.
+* **Basic Use: Hide Stdin** *(Checkbox)*: Whether typed input should be hidden, default to on.
 
- * **Basic Use: Hide Stdout** *(Checkbox)*: Whether stdout data should be hidden, default to on.
+* **Basic Use: Hide Stdout** *(Checkbox)*: Whether stdout data should be hidden, default to on.
 
- * **Basic Use: Hide StdErr** *(Checkbox)*: Whether stderr data should be hidden, default to on.
+* **Basic Use: Hide StdErr** *(Checkbox)*: Whether stderr data should be hidden, default to on.
 
- * **Basic Use: Service Type** *(Select List)*: Either `temporary`, `background` or `suspended-background`. Default to `temporary`.
+* **Basic Use: Service Type** *(Select List)*: Either `temporary`, `background` or `suspended-background`. Default to `temporary`.
 
- * **Basic Use: UI Type** *(Select List)*: Either `tab`, `panel`, `dialog`, `hidden` or `detached`. Default to `tab`.
+* **Basic Use: UI Type** *(Select List)*: Either `tab`, `panel`, `dialog`, `hidden` or `detached`. Default to `tab`.
 
- * **Basic Use: External Terminal** *(Text Box)*: Which terminal would be open if `UI Type` is `detached`.
+* **Basic Use: External Terminal** *(Text Box)*: Which terminal would be open if `UI Type` is `detached`.
 
- * **Basic Use: Detached Text Box** *(Select List)*: Either `none`, `mini-editor`, `editor`, `tab`. Default to `none`.
+* **Basic Use: Detached Text Box** *(Select List)*: Either `none`, `mini-editor`, `editor`, `editor-tab`. Default to `none`.
 
- * **Basic Use: Atom Command** *(Text Input)*: Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
+* **Basic Use: Atom Command** *(Text Input)*: Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
 
- * **Basic Use: Keybinding** *(Text Input)*: Register a Keyboard Shortcut for Basic Use.
+* **Basic Use: Keybinding** *(Text Input)*: Register a Keyboard Shortcut for Basic Use.
 
 #### Tweak by Opening `config.cson`
 
@@ -103,44 +103,44 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 ##### 1. The following fields are tweakable [by opening Settings](#tweak-in-settings), so let move on!
 
- * `basic-use:enabled` (boolean)
+* `basic-use:enabled` (boolean)
 
- * `basic-use:executable-path` (string)
+* `basic-use:executable-path` (string)
 
- * `basic-use:working-directory` (string enum)
+* `basic-use:working-directory` (string enum)
 
- * `basic-use:hide-stdin` (boolean)
+* `basic-use:hide-stdin` (boolean)
 
- * `basic-use:hide-stdout` (boolean)
+* `basic-use:hide-stdout` (boolean)
 
- * `basic-use:hide-stderr` (boolean)
+* `basic-use:hide-stderr` (boolean)
 
- * `basic-use:service-type` (string enum)
+* `basic-use:service-type` (string enum)
 
- * `basic-use:ui-type` (string enum)
+* `basic-use:ui-type` (string enum)
 
- * `basic-use:external-terminal` (string)
+* `basic-use:external-terminal` (string)
 
- * `basic-use:detached-text-box` (string enum)
+* `basic-use:detached-text-box` (string enum)
 
- * `basic-use:atom-command` (string)
+* `basic-use:atom-command` (string)
 
- * `basic-use:keybinding` (string)
+* `basic-use:keybinding` (string)
 
 ##### 2. The following fields are little more advanced
 
- * `basic-use:command-line-arguments` (array of string)
+* `basic-use:command-line-arguments` (array of string)
   - List of arguments which is passed when spawn the process
 
- * `basic-use:io-file` (object)
+* `basic-use:io-file` (object)
   - Key: `stdin`, `stdout`, and `stderr`
   - Value: A valid file path
 
- * `basic-use:io-pipe` (object)
+* `basic-use:io-pipe` (object)
   - Key: `stdin`, `stdout`, and `stderr`
   - Value: A valid path to an executable file
 
- * `global:environment-variable` (object)
+* `global:environment-variable` (object)
   - Key: Variable name
   - Value: Variable value. Either a *string*; or an *object* (called *descriptor*) which contains `middle` (optional string array property - if undefined, use Atom's environment variable with the same name), `before` (optional string array property), `after` (optional string array property), and `delimeter` (optional character property, default to `:`).
 
@@ -155,14 +155,14 @@ The following section is filled with full of JavaScript, so in order to understa
 This package provides a strong JavaScript *APIs* and customizable *UI* for user to create a simple console (a.k.a. shell, terminal) by [hacking Atom](http://flight-manual.atom.io/hacking-atom/).
 
 In a nutshell, hacking Atom is any of the following:
- * Modifying [**your** Atom's Init File](http://flight-manual.atom.io/hacking-atom/sections/the-init-file/) (i.e. `init.coffee` or `init.js`)
- * Creating an [Atom package](http://flight-manual.atom.io/using-atom/sections/atom-packages/). <i>**P.S.** We always thank whoever try to create a plugin for this package.</i>
- * Open Atom's DevTools (It's actually Google Chrome's DevTools) and have fun with some JavaScript commands.
+  * Modifying [**your** Atom's Init File](http://flight-manual.atom.io/hacking-atom/sections/the-init-file/) (i.e. `init.coffee` or `init.js`)
+  * Creating an [Atom package](http://flight-manual.atom.io/using-atom/sections/atom-packages/). <i>**P.S.** We always thank whoever try to create a plugin for this package.</i>
+  * Open Atom's DevTools (It's actually Google Chrome's DevTools) and have fun with some JavaScript commands.
 
 All code snippets of the following tutorials are writen in JavaScript to make it easy for non-Coffee JavaScript users. It won't be such a pain for Coffee enthusiasts because they must know JavaScript as well as their flavour. But it might be somehow difficult for non-JS users, so please do one of the following if you just want a copy-paste:
- * Remove `init.coffee`, create an empty `init.js`, then write things in it.
- * Create a `whatever.js` file to write things in, then add `require 'whatever.js'` to your `init.coffee`.
- * Create a simple Atom package in JavaScript so you can paste any JS code in.
+  * Remove `init.coffee`, create an empty `init.js`, then write things in it.
+  * Create a `whatever.js` file to write things in, then add `require 'whatever.js'` to your `init.coffee`.
+  * Create a simple Atom package in JavaScript so you can paste any JS code in.
 
 #### Examples
 

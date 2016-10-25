@@ -1,16 +1,19 @@
-# `EventListenerSubscription` ![experimental]
-[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Templates](.) → [EventListenerSubscription](./event-listener-subscription.md)
+# `CommandDefiner` ![experimental]
+[Project](https://github.com/ksxatompackages/quick-spawn) → [Documentation](../..) → [API References](..) → [Structures](.) → [`CommandDefiner`](./command-definer.md)
 
 ## Overview
 
-Being returned when make event-listener-registration. Used to remove the registered event-listener and lookup assigned object.
+Data type of `Descriptor::execCmd`, `Descriptor::workingDirectory` and `Descriptor::execArguments`
 
-## Basic Attributes
+## Definition
 
-* Template:
-  - [`EventEmitter`](./event-emitter.md) ![stable]
-  - [`Disposable`](./disposable.md) ![stable]
-  - [`ObjectDelegate`](./object-delegate.md) ![stable]
+`CommandDefiner = variant`
+  - `string` ![stable]
+  - `function` ![stable]
+    - Arguments: `object` ![experimental]
+      - `Object subscription` ![experimental]
+      - `AtomEvent event` ![experimental]
+    - Returns: `CommandDefiner` ![stable]
 
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/stable.svg
