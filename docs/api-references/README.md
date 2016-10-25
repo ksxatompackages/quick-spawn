@@ -23,6 +23,8 @@ Models of objects that contain only data-properties
 
 * [AtomCommandSubscriptionDescriptor](./structures/atom-command-subscription-descriptor.md) → Pass this as the first argument to function <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerAtomCommand</code>.
 
+* [CommandDefiner](./structures/command-definer.md) → Data type of `Descriptor::execCmd`, `Descriptor::workingDirectory` and `Descriptor::execArguments`.
+
 ## Templates
 Object models that provide properties to build [Classes](#classes) and [Structures](#structures)
 
@@ -38,3 +40,5 @@ Object models that provide properties to build [Classes](#classes) and [Structur
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/stable.svg
 [experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/experimental.svg
 [deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/deprecated.svg
+[required]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/required.svg
+[optional]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/optional.svg

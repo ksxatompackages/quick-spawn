@@ -3,87 +3,166 @@
 
 ## Overview
 
-Pass this as the first argument to function <code>[APIRootObject](./classes/api.md)::registerSingleSubscription</code>.
+Pass this as the first argument to function <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerAtomCommand</code>.
 
 ## Properties
 
-### Executing Command ![stable]
+### Atom Command ![stable]
 
 **Attributes**
 
-* Name: `execCmd` ![stable]
+* Name: `atomCmd` ![stable]
 
-* Type: [`CommandDefiner`](./command-definer.md#command-definer-) ![stable]
+* Type: [`CommandDefiner`](./command-definer.md#commanddefiner-)
 
-* Required ![stable]
+* ![required] ![stable]
 
 **Description**
 
-Define path to executable (binary)
+Determine atom-command to register
 
-### Executing Arguments ![stable]
+### Atom Target Selector ![stable]
 
 **Attributes**
 
-* Name: `execArguments` ![stable]
+* Name: `atomTarget` ![stable]
 
-* Type: <code>Array&lt;[CommandDefiner](./command-definer.md#command-definer-)&gt;</code> ![stable]
+* Type: `string` (CSS Selector) ![stable]
 
-* Optional ![stable]
-  - Default to `[]` ![stable]
+* ![required] ![stable]
 
 **Description**
 
-Defines arguments will be passed
+Specify target elements selector
 
-### Working Directory ![stable]
+### View Type ![stable]
 
 **Attributes**
 
-* Name: `workingDirectory` ![stable]
+* Name: `type` ![stable]
 
-* Type: [`CommandDefiner`](./command-definer.md#command-definer-) ![stable]
+* Type: `enum string { 'tab', 'panel', 'dialog', 'hidden' }` ![stable]
 
-* Optional ![stable]
-  - Default to `$HOME` ![stable]
+* ![optional] ![stable]
+  - Default to `'tab'`
 
 **Description**
 
-Defines a working directory for command to execute
+Determine view element model
 
-### Attached ![stable]
+### View Standard I/O ![stable]
 
 **Attributes**
 
-* Name: `attached` ![stable]
+* Name: `viewStdIO` ![stable]
 
-* Type: `boolean`
+* Type: `SetArray<StdIOString>` ![stable]
+  - `typedef enum string { 'stdin',  'stdout', 'stderr' } StdIOString`
 
-* Optional ![stable]
-  - Default to `false` ![stable]
+* ![optional] ![stable]
+  - Default to `['stdin', 'stdout', 'stderr']`
 
 **Description**
 
-Whether spawned child process should be attached to atom process
+Whether stdin, stdout, and/or stderr will be displayed in view
 
-### Suspended ![stable]
+### Atom Keybinding ![stable]
 
 **Attributes**
 
-* Name: `suspended` ![stable]
+* Name: `atomKeybinding` ![stable]
 
-* Type: `boolean`
+* Type: `Keybinding`
+  - `typedef variant<string, Array<Keybinding>> Keybinding`
+  - `string` satifies Atom Keystroke syntax
+  - `Array` must not be circular
+    - Otherwise there would be infinite iteration/recursion, so don't even try making it circular
 
-* Optional ![stable]
-  - Default to `true`
+* ![optional] ![stable]
 
 **Description**
 
-If `true`, command would not be spawned until user invoke its atom-command
+If not empty, register keybinding for the atom-command
 
-If `false`, command would be spawn follow atom startup
+### Atom Menubar Path ![stable]
+
+**Attributes**
+
+* Name: `atomMenuBar` ![stable]
+
+* Type: `Array<string>` ![stable]
+
+* ![optional] ![stable]
+
+**Description**
+
+If provided
+  - Register menu entries for the atom-command follow path
+  - Each item is a submenu of a menu entry by an item right before it
+
+### Atom Context Menu Descriptor ![stable]
+
+**Attributes**
+
+* Name: `atomContextMenu` ![stable]
+
+* Type: `Object` ![stable]
+  - `string target` (CSS Selector)
+  - `Array<string> path`
+
+* ![optional] ![stable]
+
+**Description**
+
+As similar to [menubar one](#atom-menubar-path-) but for context-menu
+
+### Detached Text Box (Style) ![stable]
+
+**Attributes**
+
+* Name: `detachedTextBox` ![stable]
+
+* Type: `enum string` ![stable]
+  - `none`
+  - `hidden`
+  - `mini-editor`
+  - `editor`
+  - `editor-tab`
+
+* ![optional] ![stable]
+  - Default to `none`
+
+**Description**
+
+Case `none`, no detached text box, instead, a text box (as a mini-atom-editor) will be attached to view itself
+
+Case `hidden`, neither a detached text box nor an attached text box will be shown
+
+Case `mini-editor`, show mini-atom-editor
+
+Case `editor`, show an atom-editor
+
+Case `editor-tab`, open new tab, with an atom-editor
+
+### After Creation Handler ![stable]
+
+**Attributes**
+
+* Name: `oncreated`
+
+* Type: `function`
+  - Arguments: <code>[viewSubscription](../classes/view-subscription.md) viewSubscription</code>
+  - Returns: `void`
+
+* ![optional] ![stable]
+
+**Description**
+
+Function will be call upon subscription
 
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/stable.svg
 [experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/experimental.svg
 [deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/deprecated.svg
+[required]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/required.svg
+[optional]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/optional.svg

@@ -23,7 +23,7 @@ registerSidebarBash()
 //  → Returns 1 subscription
 function registerWorkspaceBash () {
   return registerSingleSubscription({
-    execCmd: 'bash', // required; returns program needs to be executed
+    execCmd: () => 'bash', // required; returns program needs to be executed
     atomCmd: 'simple-bash:workspace', // required; registers an atom-command, appears as "Simple Bash: Workspace" in Command-Palette
     atomTarget: 'atom-workspace', // required; determines where to attach the atom-command
     workingDirectory: getTabDirectory, // optional; determines Bash's first working-directory, you can change it later by 'cd new-wdir'

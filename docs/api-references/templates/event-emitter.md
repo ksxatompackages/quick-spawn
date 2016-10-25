@@ -26,8 +26,8 @@ Functions to add/remove event-listeners
   - [`EventListenerSubscription`](./event-listener-subscription.md)
 
 * Parameters:
-  - `string name` (required) ![stable]
-  - `function handle` (required) ![stable]
+  - `string name` ![required] ![stable]
+  - `function handle` ![required] ![stable]
 
 **Description**
 
@@ -50,10 +50,10 @@ Functions to add/remove event-listeners
   - [`EventListenerSubscription`](./event-listener-subscription.md) ![stable]
 
 * Parameters:
-  - `string name` (required) ![stable]
-  - `function handle` (required) ![stable]
+  - `string name` ![required] ![stable]
+  - `function handle` ![required] ![stable]
 
- **Description**
+**Description**
 
 * Register an event-listener
 
@@ -65,3 +65,5 @@ Functions to add/remove event-listeners
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/stable.svg
 [experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/experimental.svg
 [deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/deprecated.svg
+[required]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/required.svg
+[optional]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/optional.svg

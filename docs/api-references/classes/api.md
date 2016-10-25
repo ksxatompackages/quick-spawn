@@ -30,7 +30,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
   - [`SingleSubscription`](./single-subscription.md) ![stable]
 
 * Parameters:
-  - <code>[SingleSubscriptionDescriptor](../structures/single-subscription-descriptor.md) descriptor</code> (required) ![stable]
+  - <code>[SingleSubscriptionDescriptor](../structures/single-subscription-descriptor.md) descriptor</code> ![required] ![stable]
 
 **Description**
 
@@ -60,7 +60,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
   - [`SpawnSubscription`](./spawn-subscription.md) ![stable]
 
 * Parameters:
-  - <code>[SpawnSubscriptionDescriptor](../structures/spawn-command-descriptor.md) descriptor</code> (required) ![stable]
+  - <code>[SpawnSubscriptionDescriptor](../structures/spawn-command-descriptor.md) descriptor</code> ![required] ![stable]
 
 **Description**
 
@@ -82,3 +82,5 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/stable.svg
 [experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/experimental.svg
 [deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/deprecated.svg
+[required]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/required.svg
+[optional]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/optional.svg
