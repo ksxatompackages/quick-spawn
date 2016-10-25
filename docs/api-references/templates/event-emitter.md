@@ -53,7 +53,7 @@ Functions to add/remove event-listeners
   - `string name` ![required] ![stable]
   - `function handle` ![required] ![stable]
 
- **Description**
+**Description**
 
 * Register an event-listener
 
