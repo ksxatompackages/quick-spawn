@@ -91,7 +91,7 @@ Basic use is a behaviour that is turned on by default, you can tweak it in Setti
 
 * **Basic Use: External Terminal** *(Text Box)*: Which terminal would be open if `UI Type` is `detached`.
 
-* **Basic Use: Detached Text Box** *(Select List)*: Either `none`, `mini-editor`, `editor`, `tab`. Default to `none`.
+* **Basic Use: Detached Text Box** *(Select List)*: Either `none`, `mini-editor`, `editor`, `editor-tab`. Default to `none`.
 
 * **Basic Use: Atom Command** *(Text Input)*: Register a command that is callable from Command-Palette, default to `quick-spawn:basic-use`, which would be shown to you as `Quick Spawn: Basic Use`.
 

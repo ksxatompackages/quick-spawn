@@ -12,6 +12,8 @@ Models of objects that provide methods and property getters/setters
 
 * [AtomCommandSubscription](./classes/atom-command-subscription.md) → Being returned object when call <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerSpawnCommand</code>. Observes and Controls registered atom-command as well as [`SpawnSubscription`](./classes/spawn-subscription.md) object.
 
+* [ViewSubscription](./classes/view-subscription.md) → Being returned object when call <code>variant&lt;[SingleSubscription](./classes/single-subscription.md), [AtomCommandSubscription](./classes/atom-command-subscription.md)&gt;::getCurrentView</code>. Observers and Controls opened view of a particular process.
+
 ## Structures
 Models of objects that contain only data-properties
 
@@ -21,12 +23,22 @@ Models of objects that contain only data-properties
 
 * [AtomCommandSubscriptionDescriptor](./structures/atom-command-subscription-descriptor.md) → Pass this as the first argument to function <code>[SpawnSubscription](./classes/spawn-subscription.md)::registerAtomCommand</code>.
 
+* [CommandDefiner](./structures/command-definer.md) → Data type of `Descriptor::execCmd`, `Descriptor::workingDirectory` and `Descriptor::execArguments`.
+
 ## Templates
 Object models that provide properties to build [Classes](#classes) and [Structures](#structures)
 
-* [EventEmitter](./templates/event-emitter.md) → Functions to add/remove event-listeners
+* [EventEmitter](./templates/event-emitter.md) → Functions to add/remove event-listeners.
 
-[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/fixed.svg
-[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/stable.svg
-[experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/experimental.svg
-[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.1.1/docs/images/badges/deprecated.svg
+* [EventListenerSubscription](./templates/event-listener-subscription.md) → Being returned when make event-listener-registration. Used to remove the registered event-listener and lookup assigned object.
+
+* [Disposable](./templates/disposable.md) → Provide one function `dispose` and one property `disposed`, compatible with [`CompositeDisposable`](https://atom.io/docs/api/v1.11.1/CompositeDisposable).
+
+* [ObjectDelegate](./templates/object-delegate.md) → Provide one lookup property `instance`.
+
+[fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/fixed.svg
+[stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/stable.svg
+[experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/experimental.svg
+[deprecated]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/deprecated.svg
+[required]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/required.svg
+[optional]: https://cdn.rawgit.com/ksxatompackages/quick-spawn/images-v0.2.0/docs/images/badges/optional.svg

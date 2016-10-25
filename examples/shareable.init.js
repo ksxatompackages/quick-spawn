@@ -36,7 +36,7 @@ registerEverything()
 //   - mirroredAtomCommandSubscription (atom-command-subscription)
 function registerCentralizedBash () {
   const spawnSubscription = registerSpawnCommand({
-    execCmd: 'bash', // required; program needs to be executed
+    execCmd: () => 'bash', // required; returns program needs to be executed
     execArguments: [], // optional, default to empty array; provides command-line arguments for Bash
     workingDirectory: getWorkingDirectory, // optional; determines Bash's first working-directory, you can change it later by 'cd new-wdir'
     attached: false, // optional, default to false; determines whether Bash process should be attached to Atom process
@@ -100,7 +100,7 @@ function registerCentralizedBash () {
 //   * everyAtomCommandSubsciptions (array)
 function registerDistributedBash () {
   const spawnSubscription = registerSpawnCommand({
-    execCmd: 'bash',
+    execCmd: 'bash', // It can also be a function
     __proto__: null
   })
   const registerAtomCommand = (type, key) => spawnSubscription.registerAtomCommand({
@@ -151,14 +151,14 @@ function registerBackgroundBash () {
     suspended: false,
     __proto__: null
   })
-  const registerSpawnCommand = detachedTextBox => spawnSubscription.registerAtomCommand({
+  const registerAtomCommand = detachedTextBox => spawnSubscription.registerAtomCommand({
     atomCmd: 'background-bash:' + detachedTextBox,
     atomTarget: 'atom-workspace',
     type: 'hidden',
     detachedTextBox,
     __proto__: null
   })
-  const everyAtomCommandSubsciptions = ['mini-editor', 'editor', 'tab'].map(registerSpawnCommand)
+  const everyAtomCommandSubsciptions = ['mini-editor', 'editor', 'tab'].map(registerAtomCommand)
   return {spawnSubscription, everyAtomCommandSubsciptions}
 }
 
