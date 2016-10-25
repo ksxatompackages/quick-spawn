@@ -13,7 +13,7 @@ Pass this as the first argument to function <code>[APIRootObject](./classes/api.
 
 * Name: `execCmd` ![stable]
 
-* Type: [`CommandDefiner`](./command-definer.md#command-definer-) ![stable]
+* Type: [`CommandDefiner`](./command-definer.md#commanddefiner-) ![stable]
 
 * ![required] ![stable]
 
@@ -27,7 +27,7 @@ Define path to executable (binary)
 
 * Name: `execArguments` ![stable]
 
-* Type: <code>Array&lt;[CommandDefiner](./command-definer.md#command-definer-)&gt;</code> ![stable]
+* Type: <code>Array&lt;[CommandDefiner](./command-definer.md#commanddefiner-)&gt;</code> ![stable]
 
 * ![optional] ![stable]
   - Default to `[]` ![stable]
@@ -42,7 +42,7 @@ Defines arguments will be passed
 
 * Name: `workingDirectory` ![stable]
 
-* Type: [`CommandDefiner`](./command-definer.md#command-definer-) ![stable]
+* Type: [`CommandDefiner`](./command-definer.md#commanddefiner-) ![stable]
 
 * ![optional] ![stable]
   - Default to `$HOME` ![stable]

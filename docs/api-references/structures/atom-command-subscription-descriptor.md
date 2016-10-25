@@ -13,7 +13,7 @@ Pass this as the first argument to function <code>[SpawnSubscription](./classes/
 
 * Name: `atomCmd` ![stable]
 
-* Type: [`CommandDefiner`](./command-definer.md#command-definer-)
+* Type: [`CommandDefiner`](./command-definer.md#commanddefiner-)
 
 * ![required] ![stable]
 
