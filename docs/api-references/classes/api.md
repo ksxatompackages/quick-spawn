@@ -30,7 +30,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
   - [`SingleSubscription`](./single-subscription.md) ![stable]
 
 * Parameters:
-  - <code>[SingleSubscriptionDescriptor](../structures/single-subscription-descriptor.md) descriptor</code> (required) ![stable]
+  - <code>[SingleSubscriptionDescriptor](../structures/single-subscription-descriptor.md) descriptor</code> ![required] ![stable]
 
 **Description**
 
@@ -60,7 +60,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
   - [`SpawnSubscription`](./spawn-subscription.md) ![stable]
 
 * Parameters:
-  - <code>[SpawnSubscriptionDescriptor](../structures/spawn-command-descriptor.md) descriptor</code> (required) ![stable]
+  - <code>[SpawnSubscriptionDescriptor](../structures/spawn-command-descriptor.md) descriptor</code> ![required] ![stable]
 
 **Description**
 

@@ -26,8 +26,8 @@ Functions to add/remove event-listeners
   - [`EventListenerSubscription`](./event-listener-subscription.md)
 
 * Parameters:
-  - `string name` (required) ![stable]
-  - `function handle` (required) ![stable]
+  - `string name` ![required] ![stable]
+  - `function handle` ![required] ![stable]
 
 **Description**
 
@@ -50,8 +50,8 @@ Functions to add/remove event-listeners
   - [`EventListenerSubscription`](./event-listener-subscription.md) ![stable]
 
 * Parameters:
-  - `string name` (required) ![stable]
-  - `function handle` (required) ![stable]
+  - `string name` ![required] ![stable]
+  - `function handle` ![required] ![stable]
 
  **Description**
 
