@@ -20,7 +20,7 @@ Functions to add/remove event-listeners
 * Position:
   - Instance ![stable]
 
-* Dependent on `this`
+* Independent from `this`
 
 * Return:
   - [`EventListenerSubscription`](./event-listener-subscription.md)
@@ -44,7 +44,7 @@ Functions to add/remove event-listeners
 * Position:
   - Instance ![stable]
 
-* Dependent on `this` ![experimental]
+* Independent from `this` ![experimental]
 
 * Return:
   - [`EventListenerSubscription`](./event-listener-subscription.md) ![stable]
@@ -60,6 +60,21 @@ Functions to add/remove event-listeners
 * Create and Return a subscription that can deliver its own event to the original emitter and be disposed
 
 * Once event is fired, the subscription automatically get disposed
+
+### Dispatch Event ![experimental]
+
+**Attributes**
+
+* Name: `emit` ![stable]
+
+* Position:
+  - Instance ![stable]
+
+* Independent from `this` ![experimental]
+
+**Description**
+
+Invoke certain set of events
 
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/stable.svg
