@@ -4,7 +4,7 @@
 
 const {dirname} = require('path')
 const {packages, workspace, notifications} = global.atom
-const {registerSingleSubscription} = require(packages.resolvePackagePath('quick-spawn'))
+const {registerSingleSubscription} = require(packages.resolvePackagePath('quick-spawn')).api
 
 /* DO THINGS */
 
