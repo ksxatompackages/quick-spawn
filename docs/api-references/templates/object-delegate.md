@@ -7,6 +7,8 @@ Provide one lookup property `instance`.
 
 ## Basic Attributes
 
+* Super: Object
+
 * Templates: None ![stable]
 
 ## Properties
