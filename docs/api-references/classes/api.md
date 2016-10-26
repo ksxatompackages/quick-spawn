@@ -12,6 +12,28 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 * Template:
   - [`EventEmitter`](../templates/event-emitter.md) ![experimental]
 
+## Events
+
+### Activate ![stable]
+
+**Attributes**
+
+* Name: `activate` ![stable]
+
+* Parameters: None ![experimental]
+
+**Description**
+
+Emits when quick-spawn activates
+
+### Deactivate ![stable]
+
+**Attributes**
+
+* Name: `deactivate` ![stable]
+
+* Parameters: None ![experimental]
+
 ## Functions and Methods
 
 ### Register Single Subscription ![stable]
