@@ -70,6 +70,12 @@ Functions to add/remove event-listeners
 * Position:
   - Instance ![stable]
 
+* Returns:
+  - `this`
+
+* Parameters:
+  - `any name`
+
 * Independent from `this` ![experimental]
 
 **Description**
