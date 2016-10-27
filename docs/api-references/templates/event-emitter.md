@@ -75,7 +75,7 @@ Functions to add/remove event-listeners
 
 * Parameters:
   - `any name` ![stable]
-  - `any firstparam` ![stable]
+  - `any firstparam` ![optional] ![stable]
   - `any ...arguments` ![experimental]
 
 * Independent from `this` ![experimental]
