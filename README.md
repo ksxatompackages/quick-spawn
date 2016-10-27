@@ -3,7 +3,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![dependencies status](https://david-dm.org/ksxatompackages/quick-spawn.svg)](https://david-dm.org/ksxatompackages/quick-spawn#info=dependencies)
 [![devDependencies status](https://david-dm.org/ksxatompackages/quick-spawn/dev-status.svg)](https://david-dm.org/ksxatompackages/quick-spawn#info=devDependencies)
-[![license](https://img.shields.io/npm/l/promise-set.svg)](http://spdx.org/licenses/MIT)
+[![license](https://img.shields.io/npm/l/promise-set.svg)](https://github.com/ksxatompackages/quick-spawn/blob/master/LICENSE.md)
 
 ## Under Development
 
