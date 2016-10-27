@@ -24,7 +24,7 @@ Provide one lookup property `instance`.
   - Unwritable ![experimental]
 
 * Return:
-  - [`EventEmitter`](./event-emitter.md) ![stable]
+  - `any` ![stable]
 
 **Description**
 
