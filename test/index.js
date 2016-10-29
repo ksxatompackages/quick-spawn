@@ -67,8 +67,8 @@ function * main (tester, object) {
   info('Succeed:', succeed)
   info('Failed:', failed)
   if (failed.length) {
-    throw failed
+    return Promise.reject(failed)
   } else {
-    return succeed
+    return Promise.resolve(succeed)
   }
 }
