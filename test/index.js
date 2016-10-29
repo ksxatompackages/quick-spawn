@@ -42,9 +42,9 @@ function * main (tester, object) {
           }
         }
       )
-    .map(
-      fn => new Promise(fn)
-    )
+      .map(
+        fn => new Promise(fn)
+      )
   )
   const result = yield promise
   const [succeed, failed] = result.reduce(
