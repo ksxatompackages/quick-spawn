@@ -36,7 +36,7 @@ function * main (tester, object) {
       )
       .map(
         ([tester, object]) => function * () {
-          const attr = yield stat(path)
+          const attr = yield stat(tester)
           if (attr.isFile()) {
             const testfn = require(tester)
             const module = require(object)
