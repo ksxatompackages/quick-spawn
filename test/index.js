@@ -2,7 +2,7 @@
 
 const {join} = require('path')
 const {exit} = require('process')
-const {readdir} = require('fs-promise')
+const {readdir, stat} = require('fs-promise')
 const co = require('co')
 const {info, error} = global.console
 
@@ -31,19 +31,28 @@ function * main (tester, object) {
   const promise = Promise.all(
     list
       .map(
-        item => resolve => {
-          try {
-            const test = require(join(tester, item))
-            const module = require(join(object, item))
-            const result = test(module)
-            resolve({test, module, result})
-          } catch (error) {
-            resolve({error})
+        item => [tester, object]
+          .map(dir => join(dir, item))
+      )
+      .map(
+        ([tester, object]) => function * () {
+          const attr = yield stat(path)
+          if (attr.isFile()) {
+            const testfn = require(tester)
+            const module = require(object)
+            const result = testfn(module, {tester, object})
+            return Promise.resolve({result, testfn, module})
+          }
+          if (attr.isDirectory()) {
+            const result = yield co(() => main(tester, object))
+            return Promise.resolve({result})
           }
         }
       )
+      .map(co)
       .map(
-        fn => new Promise(fn)
+        promise => promise
+          .catch(error => ({error}))
       )
   )
   const result = yield promise
