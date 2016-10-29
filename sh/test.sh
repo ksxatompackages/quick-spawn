@@ -9,6 +9,9 @@
     exit 2
   )
 ) && (
-  echo "Running unit test..."
-  node test
+  [[ "$SKIP_UNIT_TEST" == 'TRUE' ]] || (
+    echo "Running unit test..."
+    echo 'Set $SKIP_UNIT_TEST to "TRUE" to skip this test'
+    node test
+  )
 )
