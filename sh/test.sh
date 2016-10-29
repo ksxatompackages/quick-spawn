@@ -8,4 +8,7 @@
     cat stdout.tmp
     exit 2
   )
+) && (
+  echo "Running unit test..."
+  node test
 )
