@@ -11,10 +11,7 @@ function main (EventEmitter, {object}) {
 }
 
 function assignment (EventEmitter, applyClass) {
-  const builder = (self, ...args) => {
-    self.args = args
-  }
-  class MainEventEmitter extends applyClass(builder, [EventEmitter]) {
+  class MainEventEmitter extends applyClass(Origin, [EventEmitter]) {
     constructor (first, ...rest) {
       super(...rest)
       this.first = first
@@ -28,10 +25,14 @@ function validate (EventEmitter) {
   strictEqual(emitter.first, 'first')
   deepStrictEqual(emitter.args, [...'abcdefghijkl'])
   let param
-  emitter.on('pseudo-event', (...args) => param = args)
+  emitter.on('pseudo-event', (...args) => { param = args })
   emitter.emit('pseudo-event', ...'pseudo-param')
   deepStrictEqual(param, [...'pseudo-param'])
   return emitter
+}
+
+function Origin (...args) {
+  this.args = args
 }
 
 module.exports = main
