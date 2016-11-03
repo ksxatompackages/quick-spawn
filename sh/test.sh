@@ -8,4 +8,10 @@
     cat stdout.tmp
     exit 2
   )
+) && (
+  [[ "$SKIP_UNIT_TEST" == 'TRUE' ]] || (
+    echo "Running unit test..."
+    echo 'Set $SKIP_UNIT_TEST to "TRUE" to skip this test'
+    node test
+  )
 )

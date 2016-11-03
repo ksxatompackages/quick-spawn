@@ -3,7 +3,7 @@
 /* IMPORT */
 
 const {packages, workspace, commands} = global.atom
-const {registerSpawnCommand} = require(packages.resolvePackagePath('quick-spawn'))
+const {registerSpawnCommand} = require(packages.resolvePackagePath('quick-spawn')).api
 
 /* DO THINGS */
 

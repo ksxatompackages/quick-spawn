@@ -7,6 +7,8 @@ Provide one lookup property `instance`.
 
 ## Basic Attributes
 
+* Super: Object
+
 * Templates: None ![stable]
 
 ## Properties
@@ -22,7 +24,7 @@ Provide one lookup property `instance`.
   - Unwritable ![experimental]
 
 * Return:
-  - [`EventEmitter`](./event-emitter.md) ![stable]
+  - `any` ![stable]
 
 **Description**
 
