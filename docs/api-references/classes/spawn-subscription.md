@@ -52,6 +52,29 @@ Being returned object when call <code>[SpawnSubscription](./classes/spawn-subscr
 
 ## Functions and Methods
 
+### Register Atom Command ![stable]
+
+**Attributes**
+
+* Name: `registerAtomCommand`
+
+* Position:
+  - Instance ![stable]
+
+* Independent from `this` ![stable]
+
+* Return:
+  - [`AtomCommandSubscription`](./atom-command-subscription.md)
+
+* Parameters:
+  - <code>[AtomCommandSubscriptionDescriptor](../structures/atom-command-subscription-descriptor.md) descriptor</code>
+
+**Description**
+
+* Registers an atom-command which listens to and controls created spawn-subscription
+
+* Creates and Returns an `AtomCommandSubscription` instance which manages registered atom-command
+
 ### Get Current Process ![stable]
 
 **Attributes**

@@ -63,7 +63,7 @@ Result of expression `require(global.atom.resolvePackagePath('quick-spawn')).api
 
 **Description**
 
-* Register a spawn-command
+* Registers a spawn-command
 
 * Creates and Returns a `SpawnSubscription` instance to manage registered spawn-command
 
