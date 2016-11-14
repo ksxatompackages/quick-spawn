@@ -4,7 +4,7 @@ const {join} = require('path')
 const {strictEqual, deepStrictEqual} = require('assert')
 
 function main (EventEmitter, {object}) {
-  const applyClass = require(join(object, '../apply-class.js'))
+  const applyClass = require(join(object, '../../utils/apply-class.js'))
   return [assignment]
     .map(fn => fn(EventEmitter, applyClass))
     .map(validate)
