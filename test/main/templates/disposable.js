@@ -3,7 +3,7 @@
 const {join} = require('path')
 const {strictEqual} = require('assert')
 
-function main (Disposable) {
+function main (Disposable, {object}) {
   const applyClass = require(join(object, '../../utils/apply-class.js'))
   let out = null
   const dispose = () => { out = 'expected' }
@@ -14,6 +14,7 @@ function main (Disposable) {
     disposable.dispose()
     strictEqual(disposable.disposed, true, 'At any time after calling dispose, disposable.disposed must always be false')
   }
+  return [disposable]
 }
 
 module.exports = main
