@@ -82,6 +82,7 @@ Whether spawned child process should be attached to atom process
 If `true`, command would not be spawned until user invoke its atom-command
 
 If `false`, command would be spawn follow atom startup
+
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/stable.svg
 [experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/experimental.svg
