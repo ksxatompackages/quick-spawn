@@ -25,7 +25,8 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 * Parameters
   - `Object param` ![stable]
     - <code>[ViewSubscription](./view-subscription.md) viewSubscription</code> ![stable]
-    - <code>[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) targetElement</code> ![experimental]
+    - <code>[Event](https://developer.mozilla.org/en-US/docs/Web/API/Event) event</code> ![experimental]
+    - <code>[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) currentTarget</code> ![experimental]
     - `AtomCommandSubscription subscription` ![experimental]
 
 **Description**
@@ -41,7 +42,8 @@ Being returned object when call <code>[APIRootObject](.classes/api.md)::register
 * Parameters
   - `Object param` ![stable]
     - <code>[ViewSubscription](./view-subscription.md) viewSubscription</code> ![stable]
-    - <code>[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) targetElement</code> ![experimental]
+    - <code>[Event](https://developer.mozilla.org/en-US/docs/Web/API/Event) event</code> ![experimental]
+    - <code>[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) currentTarget</code> ![experimental]
     - `AtomCommandSubscription subscription` ![experimental]
 
 **Description**

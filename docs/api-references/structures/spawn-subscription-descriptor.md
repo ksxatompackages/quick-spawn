@@ -13,7 +13,7 @@ Pass this as the first argument to function <code>[APIRootObject](./classes/api.
 
 * Name: `execCmd` ![stable]
 
-* Type: [`CommandDefiner`](./command-definer.md#commanddefiner-) ![stable]
+* Type: <code>[CommandDefiner](./command-definer.md#commanddefiner-)&lt;string&gt;</code> ![stable]
 
 * ![required] ![stable]
 
@@ -27,7 +27,7 @@ Define path to executable (binary)
 
 * Name: `execArguments` ![stable]
 
-* Type: <code>Array&lt;[CommandDefiner](./command-definer.md#commanddefiner-)&gt;</code> ![stable]
+* Type: <code>[CommandDefiner](./command-definer.md#commanddefiner-)&lt;Array&lt;string&gt;&gt;</code> ![stable]
 
 * ![optional] ![stable]
   - Default to `[]` ![stable]
@@ -82,6 +82,7 @@ Whether spawned child process should be attached to atom process
 If `true`, command would not be spawned until user invoke its atom-command
 
 If `false`, command would be spawn follow atom startup
+
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/stable.svg
 [experimental]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/experimental.svg

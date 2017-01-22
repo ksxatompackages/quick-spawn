@@ -3,13 +3,13 @@
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "dependencies": {
     "exec-once": "^0.0.0",
-    "just-try": "^2.0.1"
+    "just-try": "^2.0.1",
+    "assert": "^1.4.1"
   },
   "devDependencies": {
     "standard": "8.0.0",
     "fs-promise": "^0.5.0",
-    "co": "^4.6.0",
-    "assert": "^1.4.1"
+    "co": "^4.6.0"
   },
   "scripts": {
     "remake-package-json": "node sh/remake-package-json",
