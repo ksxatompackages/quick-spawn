@@ -13,7 +13,7 @@ Data type of `Descriptor::execCmd`, `Descriptor::workingDirectory` and `Descript
     - Arguments: `object` ![experimental]
       - `Object subscription` ![experimental]
       - `AtomEvent event` ![experimental]
-    - Returns: `CommandDefiner` ![stable]
+    - Returns: `string` ![stable]
 
 [fixed]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/fixed.svg
 [stable]: https://cdn.rawgit.com/ksxatompackages/quick-spawn.images.releases/v0.1.0/src/stable.svg
