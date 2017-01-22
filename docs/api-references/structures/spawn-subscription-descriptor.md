@@ -13,7 +13,7 @@ Pass this as the first argument to function <code>[APIRootObject](./classes/api.
 
 * Name: `execCmd` ![stable]
 
-* Type: [`CommandDefiner`](./command-definer.md#commanddefiner-) ![stable]
+* Type: <code>[CommandDefiner](./command-definer.md#commanddefiner-)&lt;string&gt;</code> ![stable]
 
 * ![required] ![stable]
 
@@ -27,7 +27,7 @@ Define path to executable (binary)
 
 * Name: `execArguments` ![stable]
 
-* Type: <code>Array&lt;[CommandDefiner](./command-definer.md#commanddefiner-)&gt;</code> ![stable]
+* Type: <code>[CommandDefiner](./command-definer.md#commanddefiner-)&lt;Array&lt;string&gt;&gt;</code> ![stable]
 
 * ![optional] ![stable]
   - Default to `[]` ![stable]
